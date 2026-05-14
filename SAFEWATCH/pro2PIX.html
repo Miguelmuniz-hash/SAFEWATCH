@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header class="navbar">
+
+<div class="navbar-pagamento">
+<header class="navbar">
         <img src="https://image2url.com/r2/default/images/1775746341018-67b4faaa-e194-42ee-8e69-8cd18ff8f50a.jpeg"
             alt="LOGO" width="150px" />
         <nav class="gap">
             <a href="index.html">Início ⌵</a>
             <a href="sobre.html">Sobre ⌵</a>
             <a href="recursos.html">Recursos ⌵</a>
-            
+           
             <a href="lojas.html">Loja ⌵</a>
         </nav>
 
         <div class="junto">
 
     
-         <div class="botoes">
+        <div class="botoes">
             <a href="login.html">Entrar</a>
 
         </div>
@@ -32,7 +33,8 @@
       </div>
       
     </header>
-<header>
+</div>
+    <header>
         <div class="linkParaIrNaLoja">
  <div class="botaozao-COMPRAR">
  <a href="lojas.html">Voltar a LOJA></a>
@@ -43,18 +45,19 @@
 <div class="box-pagamentao">
 
     <div class="conteudo-pagamentao">
-        <img src="https://www.image2url.com/r2/default/images/1776206222094-70340bf8-7afa-483b-b2f4-1e1663875c95.png" alt="SafeWatch Pro 3" class="imagem-produto-checkout">
+        <img src="https://www.image2url.com/r2/default/images/1776206287361-7cf74e1c-54df-4e6d-a798-154df9c23e0d.png" alt="SafeWatch Pro 3" class="imagem-produto-checkout">
         <div>
-            <h3 class="titulo-pagamentao">SafeWatch Pro 3</h3>
+            <h3 class="titulo-pagamentao">SafeWatch Pro 2</h3>
             <p class="descricao-pagamentao">Smartwatch com monitoramento SOS e localização precisa</p>
         </div>
     </div>
     <div class="valores-relogio">
-        <span class="preco-relogio">R$ 650,00</span>
-        <p class="parcelas-relogio">ou 12x de R$ 54,16</p>
+        <span class="preco-relogio">R$ 629,00</span>
+        <p class="parcelas-relogio">ou 12x de R$52,41</p>
     </div>
 </div>
-    
+
+
 <div class="PAGAMENTO">
         <form id="checkout-form">
             
@@ -118,48 +121,46 @@
                 </div>
 
                 <div class="pay-methods">
-
-                    <a href="pagamento.html">
-                    <div class="method">
+                    <div class="method active">
                         <strong>PIX</strong>
                         <span>Aprovação imediata</span>
                     </div>
-                    </a>
 
-                    <a href="cartao.html">
+                    <a href="pro2CARTAO.html">
                     <div class="method">
                         <strong>Cartão de crédito</strong>
                         <span>Em até 12x</span>
                     </div>
                     </a>
 
-                    
-                    <div class="method active">
+                    <a href="pro2BOLETO.html">
+                    <div class="method">
                         <strong>Boleto</strong>
                         <span>Aprovação em 2 dias</span>
                     </div>
-                    
+                    </a>
                 </div>
 
-                <div class="boleto-area">
-    <div class="boleto-info">
-        <div class="boleto-texto">
-        <p>O boleto será gerado após a finalização do pedido.</p>
-        </div>
-        <ul>
-            <li>Vencimento em 3 dias úteis.</li>
-            <li>Aprovação em até 48 horas.</li>
-        </ul>
-    </div>
-</div>
-
-  </section>
+                <div class="pix-area">
+                    <div class="pix-info">
+                        <p>Pague com PIX</p>
+                        <small>Escaneie o QR Code ou copie o código abaixo</small>
+                        <input type="text" value="00020126580014BR.GOV.BCB.PIX..." readonly>
+                    </div>
+                    <div class="qr-placeholder">
+                        <div class="qr-box"><img src="https://www.image2url.com/r2/default/images/1777925675986-4183cac5-950d-4ace-869a-589c52015e62.png" alt="image" width="80px" /></div>
+                    </div>
+                </div>
+            </section>
         </form>
+
+
         <div>
             <div class="botao-pagamento">
             <a href="">Finalizar compra</a>
         </div>
       </div>
+        </div>
     </div>
 
 <footer class="footer">
@@ -216,5 +217,7 @@
   
 </footer>
 
+
+    
 </body>
 </html>
