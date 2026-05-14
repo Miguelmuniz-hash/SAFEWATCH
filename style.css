@@ -1,0 +1,1867 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 7px 17px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 25px;
+}
+
+.gap{
+    gap: 100px;
+}
+.abas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 5px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 25px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.junto{
+    display: flex;
+    gap: 20px;
+}
+
+.botoes {
+  background-color: #f4f4f4;
+  background: linear-gradient(to right, #f6edea);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.botoes a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.botoes1 a{
+  text-decoration: none;
+  color: #f6edea;
+}
+
+.botoes1 {
+  background-color: #e95c28;
+  color: rgb(180, 171, 171);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.entrar {
+  background-color: #eee;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+.cadastrar {
+  background-color: #e95c28;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+/*banner*/
+/* CAIXA PRINCIPAL */
+.banner {
+  margin: 40px;
+}
+
+/* FUNDO GRADIENTE */
+.banner-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #e95c28, #0a2a66);
+  border-radius: 30px;
+ 
+  margin: 50px;
+}
+
+
+/* TEXTO */
+.texto {
+  color: white;
+  max-width: 500px;
+}
+
+.texto h1 {
+  font-size: 28px;
+}
+
+.texto p {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* BOTÕES */
+.botao {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-comprar {
+  background-color: #e95c28;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-saiba {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+/*caracteristicas safewatch*/
+.beneficios {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  
+ 
+}
+
+.item {
+  max-width: 200px;
+  text-align: left;
+  margin-bottom: 5px;
+  
+  
+}
+
+.itemB{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.item img {
+  width: 40px;
+  margin-bottom: 10px;
+ align-items: center;
+ display: flex;
+}
+
+.item h3 {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.item p {
+  font-size: 12px;
+  color: #555;
+  display: flex;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer {
+  background-color: #0a2a66;
+  color: white;
+ 
+  padding: 5px;
+  width: 100%;       /* Ocupa a largura total da tela */
+  
+  margin-top: auto;  /* Joga o footer para o final da página */
+}
+
+/* PARTE DE CIMA */
+.footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  
+}
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+
+
+.coluna1 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.coluna2 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.coluna3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.coluna3 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.coluna4 {
+    margin-right: 50px;
+}
+
+
+/* REDES */
+.redes span {
+  margin-right: 14px;
+}
+
+/* LINHA */
+.linha {
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+/* PARTE DE BAIXO */
+.footer-baixo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.pagamentos {
+  margin-right: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+/*TERMINO DO FOOTER*/
+
+
+/*app*/
+
+.conexao {
+  display: flex;
+  align-items: center;           /* Centraliza verticalmente o texto com as imagens */
+  margin-top: -80px;
+  justify-content: space-around;
+  gap: 280px;
+  place-items: center;
+}
+
+
+#botao-app {
+  
+  top: 20px;        
+  right: 40px;
+  display: flex;
+  font-weight: bolder;
+   width: max-content;
+   margin-left: auto;
+   margin-right: 50px;
+   
+}
+#botao-app a{
+  text-decoration: none;
+  
+}
+
+
+
+.texto-conezao{
+color: #002d62; 
+font-size: 30px;
+ max-width: 600px;
+  
+text-align: center;
+display: flex;
+
+  clear: both; 
+ 
+
+  display: inline-block;
+  
+     align-items: center;
+  text-align: center;
+ 
+  display: flex;
+
+}
+
+.subtitulo-app{
+color: #ff6a00; 
+font-weight: bold;
+
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+ 
+  display: flex;
+
+
+margin-top: 25px;
+}
+
+
+
+
+.passo {
+
+ 
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  
+ 
+    
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 30px 40px;
+  font-family: sans-serif;
+  max-width: 500px;
+
+  margin-left: -510px;
+}
+
+.passo p{
+  margin: 0;
+}
+
+
+.textossAPP{
+  justify-content: center;
+  display: block;
+  
+
+}
+
+.textaoAPP{
+font-size: 27px;
+}
+
+.textinhoAPP{
+  font-size: 17px;
+  font-weight: 20px;
+}
+
+
+.botoes-app {
+
+  display: flex;
+  align-items: center;              
+  margin-top: 50px;         
+  margin-left: -425px;
+  
+}
+
+.tudo-do-app{
+  margin-top: 80px;
+}
+
+.imagem-app{
+  display: flex;
+  justify-content: flex-end;
+   align-items: flex-start; 
+   margin-top: -690px; 
+   margin-right: 105px; 
+}
+.cadeadinho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/*lojas*/
+
+.loja {
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+/* TOPO */
+.topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.topo input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.filtros {
+  display: flex;
+  gap: 30px;
+}
+
+/* GRID */
+.produtos-comprar {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+}
+
+/* CARD */
+.card-LOJA {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+
+.avaliacao {
+  font-size: 15px;
+  color: #ff6a00;
+}
+
+.info h3 {
+  margin: 10px 0 5px;
+}
+
+.parcelado {
+  font-size: 13px;
+  color: #777;
+}
+
+.botao-loja {
+  margin-top: 10px;
+  background: #ff6a00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: max-content;
+  
+}
+
+.botao-loja a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*terminodelojas*/
+
+/*linha*/
+.linha-divisora {
+  border: 0;                /* Remove a borda padrão do navegador */
+  height: 1px;              /* Define a espessura bem fininha */
+  background-color: #333;   /* Cor da linha (ajuste para o azul/cinza do seu fundo) */
+  opacity: 0.3;             /* Deixa ela levemente transparente como na imagem */
+  margin: 80px 0;           /* Dá espaço em cima e embaixo da linha */
+  width: 100%;              /* Faz ela atravessar de um lado ao outro */
+}
+
+
+/*funcionamento*/
+.como-funciona {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.passo1 {
+  position: relative; /* Permite posicionar o número em relação a este box */
+  flex: 1;
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+  border: 1px solid #ccc;
+  border-radius: 30px;
+ 
+  
+  font-family: sans-serif;
+  max-width: 510px;
+  
+}
+
+
+
+.numero {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #ff6600; /* Laranja da imagem */
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Faz o círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+
+.conteudo-passo-one{
+  margin-top: 28px;
+}
+
+.conteudo-passo-one img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 40px;
+    
+}
+
+.conteudo-passo-one h3 {
+    color: #003366; /* Azul escuro */
+    font-size: 1.1rem;
+    margin-bottom: -60px;
+}
+
+.conteudo-passo-one p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 70px;
+     max-width: 450px;
+}
+
+.conteudo-passo-two img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.conteudo-passo-two h3 {
+    color: #003366; /* Azul escuro */
+    font-size: 1.1rem;
+    margin-bottom: -60px;
+}
+
+.conteudo-passo-two p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 70px;
+}
+
+.conteudo-passo-three{
+  margin-top: 28px;
+}
+
+.conteudo-passo-three img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 40px;
+    margin-left: 45px;
+}
+
+.conteudo-passo-three h3 {
+    color: #003366; /* Azul escuro */
+    font-size: 1.1rem;
+    margin-bottom: -5px;
+}
+
+.conteudo-passo-three p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+
+
+
+.colunaFUNCIONAMENTO{
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  margin-right: -20px;
+}
+
+.subtitulo-funcionamento{
+
+margin-bottom: 30px;
+font-weight: bold;
+color: #ff6a00; 
+font-size: 17px;
+margin-bottom: 10px;
+margin-top: -40px;
+text-align: center;
+
+}
+
+.texto-funcionamento{
+color: #002d62; 
+font-size: 30px;
+ margin: 0;
+ text-align: center;
+ 
+}
+
+.subtituloFUNCIO{
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/*FAG*/
+
+.colunaFAG{
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.subtitulo-FAG{
+
+margin-bottom: 30px;
+font-weight: bold;
+color: #ff6a00; 
+font-size: 17px;
+margin-bottom: 10px;
+margin-top: -40px;
+text-align: center;
+
+}
+
+.texto-FAG{
+color: #002d62; 
+font-size: 30px;
+ margin: 0;
+ text-align: center;
+ 
+}
+
+
+
+.fag-geral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.faq-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 40px; /* Bordas arredondadas como na imagem */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    
+}
+
+.faq-card img{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  
+}
+
+
+.faq-content h3 {
+    margin: 0 0 5px 0;
+    color: #003366; /* Azul escuro */
+    font-size: 1.1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-content p {
+  
+    margin: 0;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+/* banner */
+.banner-conteudo {
+  display: flex;
+  background: linear-gradient(90deg, #d35400 0%, #002244 40%);
+  border-radius: 30px;
+  padding: 20px;
+  padding: 0 40px 0 0; /* ZERO padding na esquerda para a imagem encostar */
+}
+
+
+/* TEXTO */
+.textoMEIO{
+color: white;
+padding: 10px 20px;
+justify-content: center;
+max-width: 450px;
+align-items: center;
+
+position: absolute;
+
+}
+
+
+.textoMEIO h1 { 
+  font-size: 1.3rem; margin: 0 0 5px; 
+  align-items: center;
+}
+
+.textoMEIO p {
+ font-size: 0.85rem; opacity: 0.9; line-height: 1.2;
+ align-items: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.stores{
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.stores img{
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* BOTÕES */
+.botaoBANNER {
+  display: flex;
+  gap: 15px;
+  gap: 15px;
+  
+}
+
+.BOTAO-comprar {
+  background-color: #e95c28;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.BOTAO-saiba {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*login*/
+
+ .bodyLOGIN {
+    background-color: #eff5fc; 
+    margin: 0;
+    
+    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+   justify-content: center;
+  
+}
+
+.login-container {
+    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    padding: 40px 0;
+}
+
+/* BOX BRANCA (Tamanho fixo e fechada) */
+.login-card {
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* INPUTS E BOTÕES */
+.input-group {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #003366;
+    font-weight: bold;
+}
+
+.textinhoLOGIN{
+  color: #003366;
+  margin-top: 10px;
+}
+
+
+.botaoCADASTRO{
+  margin-top: 5px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7a1a;
+  color: white;
+  cursor: pointer;
+   font-size: 16px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.botaoCADASTRO a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #aaa;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: -2px;
+}
+
+.BOTAO-google{
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+     margin-bottom: 25px;
+}
+
+
+.textoCADASTRO{
+  text-align: left;
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.textoCADASTRO a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+/*cadastro*/
+
+.bodyCADASTRO {
+    background-color: #eff5fc; 
+    margin: 0;
+    
+    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+   justify-content: center;
+  
+}
+
+.Cadastro-container {
+    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    padding: 40px 0;
+}
+
+/* BOX BRANCA (Tamanho fixo e fechada) */
+.Cadastro-card {
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* INPUTS E BOTÕES */
+.input-group {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #003366;
+    font-weight: bold;
+}
+
+.textinhoCADASTRO{
+  color: #003366;
+  
+}
+
+
+.botaoCADASTRO{
+  margin-top: 5px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7a1a;
+  color: white;
+  cursor: pointer;
+   font-size: 16px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.botaoCADASTRO a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.divider1 {
+    margin: 20px 0;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: -2px;
+}
+
+.BOTAO-google{
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+     margin-bottom: 25px;
+}
+
+.termos-CADASTRO{
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+  
+  
+}
+.termos-CADASTRO a{
+  text-decoration: none;
+
+}
+
+.termos-CADASTRO label{
+  font-weight: normal;
+  font-size: 14px;
+  display: flex
+  
+}
+
+.textoCADASTRARSE{
+  text-align: center;
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.textoCADASTRARSE a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+/*sobre nós*/
+
+
+.SOBRE-NOS{
+  color: #1a2a5a; 
+  font-weight: bold; 
+  font-size: 1.4rem; 
+  
+}
+
+.container-SOBRE {
+    display: flex;
+    width: 100%;
+    
+    margin-left: -85px;
+}
+
+.container-SOBRE h1{
+   color: #1a2a5a; 
+   font-size: 2.8rem; 
+   margin-bottom: 20px; 
+   
+  }
+
+.pepa-pigue{
+  margin-top: -65px;
+}
+
+.missão-impossivel{
+  margin-left: -80px;
+ margin-top: -0px;
+}
+
+.ajeitar-sobre{
+   display: flex;
+    
+}
+
+.muitos-textos{
+   margin-top: -35px;
+   
+}
+
+ 
+.prabaixo{
+  margin-top: 30px;
+  margin-left: -292px;
+}
+
+.divider 
+{ width: 100px; 
+  height: 3px; 
+  background: #ff7043; 
+  margin: 10px 0 30px; 
+}
+
+.logo-somos{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: -13px;;
+}
+
+.section-SOBRE {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    
+}
+
+
+.text-SOBRE {
+    flex: 1;
+    padding: 60px 5% 60px 10%;
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+}
+
+.text-SOBRE p{
+ max-width: 600px;
+ 
+}
+
+
+
+
+.IDOSOS-img { flex: 1; }
+.IDOSOS-img img {
+
+  margin-left: 74px;
+  margin-top: 30px;
+    width: 90%;
+   
+     border-radius: 40px 10px 40px 80px; 
+    overflow: hidden;
+}
+
+
+
+
+/* --- PRODUTO --- */
+
+.section-SOBRE2{
+  margin-top: -90px;
+}
+
+.watch-safewatch{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: -200px;
+    margin-right: 25px;
+}
+
+.imagensrelogios{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+
+.margin-popizinho{
+  margin-bottom: -0px;
+}
+
+.tudo-sobre{
+  flex-direction: row;
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-right: 200px;
+ 
+}
+
+
+
+/* --- EQUIPE --- */
+
+.section-SOBRE3{
+  margin-top: -200px;
+}
+
+.fotos-safewatch {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member{
+  text-align: center; 
+  width: 180px; 
+}
+
+.member img {
+    width: 130px; height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.member h3 { 
+  color: #1a2a5a; 
+  font-size: 1.1rem; 
+}
+.member p { 
+  color: #777;
+   font-size: 0.85rem; 
+  }
+
+
+/* --- COMPROMISSO --- */
+
+.benefit-row {
+    display: flex;
+    gap: 20px;
+
+    margin: 30px 0;
+     width: fit-content;
+    
+     margin-left: 111px;
+
+     margin-top: -40px;
+}
+
+.benefit-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.imagem-coração{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+
+
+.textinho-rimem{
+  margin-left: 115px;
+  margin-bottom: 60px;
+}
+
+/*recursos*/
+
+.recursos-SAFE{
+ 
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.recursos-SAFE h1 {
+  color: #1b3a6b;
+  
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.topo-IMAGEM {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.topo-IMAGEM img {
+  width: 60%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.titulo-RECURSOS2{
+display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centraliza horizontalmente os blocos */
+    text-align: center !important;  /* Centraliza o texto dentro de cada linha */
+}
+
+.superman{
+   font-size: 30px;
+  font-weight: bold;
+  color: #1b3a6b;
+ 
+  margin-top: 20px;
+  display: flex;
+  margin-right: 50px;
+}
+
+.batman{
+  font-size: 30px;
+  font-weight: bold;
+  color: #1b3a6b;
+  margin-top: -50px;
+  display: flex;
+  margin-right: 50px;
+  
+}
+
+.botao-RECURSOS {
+  background: #ff6a00;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+
+/* GRID DOS CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px 250px;
+  margin-left: 50px;
+   max-width: 1763px;
+   margin-top: 120px;
+   
+margin-bottom: 30px;
+ 
+  
+}
+
+.card {
+ 
+   background-color: #ffffff;
+    padding: 15px;
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  
+}
+
+.card h3 {
+ 
+  font-size: 1.25rem;
+    
+    margin-bottom: 12px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.card p {
+  
+   margin-top: -5px;
+    line-height: 1.3;
+}
+
+.card-imagem-recursos{
+   display: flex;
+    align-items: center; /* Alinha o ícone verticalmente ao centro do texto */
+    gap: 5px;           /* Espaço entre a imagem e o texto */
+  
+
+
+    border: 1px solid #e0e0e0;    /* Borda fina e cinza clara */
+    border-radius: 15px;        /* Arredonda os cantos da borda */
+    padding: 20px ;   /* Espaço interno para o conteúdo não esmagar a borda */
+    
+    margin-bottom: 15px;       /* Espaço entre um cartão e outro */
+}
+
+/*PAGINA APP*/
+
+.text-PAGAPP {
+    
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -60px;
+    margin-top: 50px;
+}
+
+.text-PAGAPP a{
+  align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.text-PAGAPP h1{
+   margin-left: 720px;
+}
+
+.text-PAGAPP p{
+font-weight: bold;
+font-size: 25px;
+color: #ff7a1a;
+margin-top: -10px;
+ max-width: 600px;
+   margin-left: 80px;
+}
+
+/*linha*/
+.linha-divisora {
+  border: 0;                /* Remove a borda padrão do navegador */
+  height: 1px;              /* Define a espessura bem fininha */
+  background-color: #333;   /* Cor da linha (ajuste para o azul/cinza do seu fundo) */
+  opacity: 0.3;             /* Deixa ela levemente transparente como na imagem */
+  margin: 80px 0;           /* Dá espaço em cima e embaixo da linha */
+  width: 100%;              /* Faz ela atravessar de um lado ao outro */
+}
+
+ 
+.downloads h2{
+  color: #002d62;
+  font-size: 35px;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.windows {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas de tamanhos iguais */
+  gap: 80px;                     
+  max-width: 800px;
+  margin: 0 auto;                /* Centraliza a seção na tela */
+  
+  margin-bottom: 60px;
+}
+
+/* Estilo individual de cada botão */
+.windows-plataforma {
+  display: flex;
+  align-items: center;      
+  background-color: #002d62; 
+  color: white;
+  text-decoration: none;
+  
+  
+  padding: 80px 90px; 
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+
+.windows-plataforma img {
+  width: 60px;               
+  margin-right: 70px;
+  
+}
+
+
+/*COMPRAR*/
+.comprar-container {
+  margin-top: -5px;
+  margin-top: 50px;
+  display: flex;
+  gap: 250px;
+  max-width: 1000px;
+ margin-left: 190px;
+  font-family: sans-serif;
+
+  margin-bottom: 70px;
+}
+
+/* Galeria Vertical */
+.product-comprar {
+  display: flex;
+  gap: 80px;
+  
+}
+
+.fotos-COMPRAR {
+  display: flex;
+  flex-direction: column; /* Alinha miniaturas em coluna */
+  gap: 20px;
+  
+  
+}
+
+.fotos-COMPRAR img {
+  width: 200px;
+  cursor: pointer;
+  display: block;
+
+}
+
+
+.BOTAOzinho-comprar{
+  background-color: #e95c28;
+  border-color: #e95c28;
+  color: white;
+
+  padding: 14px 250px;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  font-size: 17px;
+  white-space: nowrap;
+
+  margin-bottom: 20px;
+}
+
+.BOTAOzinho-comprar a{
+  text-decoration: none;
+  
+}
+
+.linha-COMPRAR {
+  border: 0;                /* Remove a borda padrão do navegador */
+  height: 1px;              /* Define a espessura bem fininha */
+  background-color: #333;   /* Cor da linha (ajuste para o azul/cinza do seu fundo) */
+  opacity: 0.3;             /* Deixa ela levemente transparente como na imagem */
+  width: 100%;              /* Faz ela atravessar de um lado ao outro */
+}
+
+.BOTAO-CARRINHO{
+  padding: 8px 205px;
+  border-radius: 20px;
+  text-decoration: none;
+ font-weight: bold;
+  font-size: 17px;
+  white-space: nowrap;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.apresentaçãodoproduto{
+  margin-top: 70px;
+  margin-left: -50px;
+  font-weight: normal;
+}
+
+
+.botaozao-COMPRAR {
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-top: 45px;
+  
+
+   
+   width: max-content;
+   font-weight: bolder;
+}
+
+.botaozao-COMPRAR a{
+  text-decoration: none;
+  
+}
+
+.description{
+  font-weight: normal;
+}
+
+
+
+/*Pagamento*/
+
+.box-pagamentao{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+  
+  padding: 15px 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.conteudo-pagamentao{
+  display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 230px;
+   
+}
+
+.valores-relogio{
+  text-align: right;
+  margin-top: 15px;
+}
+
+.preco-relogio{
+  font-size: 25px;
+  font-weight: bold;
+    color: #e95c28;
+}
+
+.parcelas-relogio{
+      margin: 7px 0 0 0;
+ font-size: 15px;
+}
+
+.imagem-produto-checkout {
+    width: 220px;
+    height: auto;
+    border-radius: 5px;
+    position: absolute; 
+
+    margin-left: -230px;
+}
+
+.linkParaIrNaLoja{
+  margin-top: 20px;
+  
+}
+
+:root {
+    --primary-blue: #1a3a8a;
+    --light-gray: #f8f9fa;
+    --border-color: #e0e0e0;
+    --text-muted: #6c757d;
+}
+
+.PAGAMENTO {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.section-PAGAMENTO {
+    margin-bottom: 40px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.header-section h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-blue);
+}
+
+.header-section p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.grid-PAGAMENTO {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.nome-pagamento{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #444;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+/* Botão Buscar CEP */
+.cep-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-secundario {
+    padding: 0 15px;
+    border: 1px solid var(--primary-blue);
+    background: transparent;
+    color: var(--primary-blue);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Métodos de Pagamento */
+.pay-methods {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pay-methods a{
+  text-decoration: none;
+}
+
+.method {
+    flex: 1;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.method.active {
+    border: 2px solid var(--primary-blue);
+    background-color: #f0f4ff;
+}
+
+.method strong {
+    display: block;
+    color: var(--primary-blue);
+}
+
+.method span {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Área do PIX */
+.pix-area {
+    display: flex;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qr-box {
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+}
+
+/*cartao*/
+
+
+/* Estilo do Input com Logos de Cartão */
+.input-with-icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icons input {
+    width: 80%;
+     
+}
+
+.card-logos {
+    
+    right: 10px;
+    display: flex;
+    gap: 8px;
+    object-fit: contain;
+   
+}
+
+/* Campo CVV com ícone de ajuda */
+.input-help {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.help-icon {
+    margin-left: 8px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+    cursor: help;
+}
+
+/*boleto*/
+.boleto-area {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+   
+}
+
+.boleto-info p {
+    font-weight: bold;
+    color: var(--primary-blue);
+    margin-top: 5px;
+
+text-align: center;
+  text-align: center;
+  align-items:center ;
+}
+
+.boleto-info ul {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    padding-left: 20px;
+
+    display: block;
+    place-items: center;
+}
+
+.botao-pagamento{
+ background-color: #e95c28;
+  border-color: #e95c28;
+  
+  padding: 14px 340px;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  font-size: 17px;
+  white-space: nowrap;
+
+  margin-bottom: 20px;
+  
+  
+  } 
+
+.botao-pagamento a{
+
+  text-decoration: none;
+  color: white;
+}
