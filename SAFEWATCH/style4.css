@@ -1,0 +1,1246 @@
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Evita rolagem lateral indesejada */
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column; /* Elementos um abaixo do outro */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 15px;
+  }
+
+  .gap {
+    gap: 15px; /* Reduzido o espaço gigante */
+  }
+
+  .abas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column; /* Links em lista */
+    align-items: center;
+    gap: 12px; 
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .junto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .botoes, .botoes1 {
+    width: 90%; /* Botões mais largos e fáceis de tocar */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .botoes {
+    background-color: #f4f4f4;
+    background: linear-gradient(to right, #f6edea);
+  }
+
+  .botoes1 {
+    background-color: #e95c28;
+    color: rgb(180, 171, 171);
+  }
+
+  .botoes a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .botoes1 a {
+    text-decoration: none;
+    color: #f6edea;
+  }
+
+  .entrar, .cadastrar {
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .entrar {
+    background-color: #eee;
+  }
+
+  .cadastrar {
+    background-color: #e95c28;
+    color: white;
+  }
+
+  /* BANNER */
+  .banner {
+    margin: 15px;
+  }
+
+  .banner-conteudo {
+    display: flex;
+    flex-direction: column; /* Texto e imagem empilhados */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e95c28, #0a2a66);
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .texto {
+    color: white;
+    max-width: 100%;
+  }
+
+  .texto h1 {
+    font-size: 22px; /* Diminuído para não quebrar linha bruto */
+  }
+
+  .texto p {
+    margin: 15px 0;
+    font-size: 13px;
+  }
+
+  /* BOTÕES BANNER */
+  .botao {
+    display: flex;
+    flex-direction: column; /* Botões um em cima do outro */
+    gap: 10px;
+    width: 100%;
+  }
+
+  .btn-comprar, .btn-saiba {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .btn-comprar {
+    background-color: #e95c28;
+    color: white;
+  }
+
+  .btn-saiba {
+    background-color: white;
+    color: black;
+  }
+
+  /* CARACTERISTICAS SAFEWATCH */
+  .beneficios {
+    display: flex;
+    flex-direction: column; /* Um item abaixo do outro */
+    align-items: center;
+    gap: 25px;
+    padding: 20px 15px;
+  }
+
+  .item {
+    max-width: 100%;
+    text-align: center; /* Centralizado no mobile */
+    margin-bottom: 5px;
+  }
+
+  .itemB {
+    display: flex;
+    flex-direction: column; /* Ícone em cima do texto */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .item img {
+    width: 45px;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .item h3 {
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .item p {
+    font-size: 13px;
+    color: #555;
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    background-color: #0a2a66;
+    color: white;
+    padding: 30px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+  }
+
+  .footer-conteudo {
+    display: flex;
+    flex-direction: column; /* Colunas do rodapé viram linhas */
+    gap: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .coluna1, .coluna2, .coluna3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0; /* Zerado margens esquerdas */
+    align-items: center;
+    gap: 8px;
+  }
+
+  .coluna1 p {
+    margin-left: 0;
+  }
+
+  .coluna1 a, .coluna2 a, .coluna3 a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 13px;
+  }
+
+  .coluna4-texto {
+    margin-left: 0;
+    text-align: center;
+  } 
+
+  .redes {
+    margin-right: 0; /* Centralizado no mobile */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .linha {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+
+  .footer-baixo {
+    display: flex;
+    flex-direction: column-reverse; /* Direitos autorais embaixo, pagamentos em cima */
+    gap: 15px;
+    margin-left: 0;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .pagamentos {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* APP */
+  .conexao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #botao-app {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .texto-conezao {
+    color: #002d62; 
+    font-size: 22px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .subtitulo-app {
+    color: #ff6a00; 
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .passo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin-left: 0; /* Removido margem negativa destruidora de layout */
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .textossAPP {
+    text-align: center;
+  }
+
+  .textaoAPP {
+    font-size: 20px;
+  }
+
+  .textinhoAPP {
+    font-size: 15px;
+  }
+
+  .botoes-app {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;         
+    margin-left: 0; /* Zerado */
+    width: 100%;
+    align-items: center;
+  }
+
+  .tudo-do-app {
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  .imagem-app {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Transformado margem negativa em positiva */
+    margin-right: 0; 
+  }
+
+  .imagem-app img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .cadeadinho {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  /* LOJAS */
+  .loja {
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0; /* Zerado */
+  }
+
+  .filtros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .produtos-comprar {
+    display: grid;
+    grid-template-columns: 1fr; /* Apenas 1 produto por linha no celular */
+    place-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-LOJA {
+    display: flex;
+    flex-direction: column; /* Foto em cima, informações embaixo */
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* LINHA DIVISORA */
+  .linha-divisora {
+    margin: 40px 0;
+  }
+
+  /* FUNCIONAMENTO */
+  .como-funciona {
+    display: flex;
+    flex-direction: column; /* Passos empilhados */
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .passo1 {
+    margin-top: 15px;
+    padding: 25px 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .numero {
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a bolinha do número no topo */
+    top: -20px;
+  }
+
+  .conteudo-passo-one {
+    margin-top: 15px;
+  }
+
+  .conteudo-passo-one img {
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+
+   .conteudo-passo-one h3, 
+  .conteudo-passo-two h3 {
+    color: #003366;
+    font-size: 1.1rem;
+    margin-bottom: 10px; /* Corrigido de -60px para positivo para não sobrepor o texto */
+  }
+
+  .conteudo-passo-one p, 
+  .conteudo-passo-two p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 10px; /* Corrigido de 70px para evitar espaçamento gigante */
+    max-width: 100%;
+  }
+
+  .conteudo-passo-two img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .conteudo-passo-three {
+    margin-top: 15px;
+  }
+
+  .conteudo-passo-three img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 0; /* Zerado o desalinhamento */
+  }
+
+  .conteudo-passo-three h3 {
+    color: #003366;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .conteudo-passo-three p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .colunaFUNCIONAMENTO {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    margin-right: 0; /* Zerado margem negativa */
+    padding: 0 15px;
+  }
+
+  .subtitulo-funcionamento {
+    font-weight: bold;
+    color: #ff6a00; 
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px; /* Corrigido de -40px */
+    text-align: center;
+  }
+
+  .texto-funcionamento {
+    color: #002d62; 
+    font-size: 22px; /* Diminuído para não quebrar feio */
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+
+  .subtituloFUNCIO {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* FAQ */
+  .colunaFAG {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .foto-mulher {
+    margin-left: 0; /* Removido -250px que jogava a foto para fora da tela */
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .subtitulo-FAG {
+    font-weight: bold;
+    color: #ff6a00; 
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px; /* Corrigido de -40px */
+    text-align: center;
+  }
+
+  .texto-FAG {
+    color: #002d62; 
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .fag-geral {
+    display: grid;
+    grid-template-columns: 1fr; /* Transforma 2 colunas em 1 coluna vertical */
+    gap: 15px;
+    max-width: 100%;
+    margin: 0 15px 30px 15px;
+  }
+
+  .faq-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Bordas ligeiramente menores para mobile */
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /* Coloca o ícone acima do texto ou mantém flex ajustado */
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .faq-card img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .faq-content h3 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .faq-content p {
+    margin: 0;
+    font-size: 13px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* BANNER DO MEIO */
+  .banner-conteudo {
+    display: flex;
+    flex-direction: column; /* Elementos empilhados verticalmente */
+    background: linear-gradient(180deg, #d35400 0%, #002244 100%);
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .textoMEIO {
+    color: white;
+    padding: 10px 0;
+    max-width: 100%;
+    position: relative; /* Mudado de absolute para não quebrar o layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textoMEIO h1 { 
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+  }
+
+  .textoMEIO p {
+    font-size: 13px; 
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0; /* Zerado os -272px */
+    width: 100%;
+    align-items: center;
+  }
+
+  .stores {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .stores img {
+    max-width: 120px; /* Garante que os selos de app caibam lado a lado */
+    height: auto;
+  }
+
+  .botaoBANNER {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .BOTAO-comprar, .BOTAO-saiba {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  /* LOGIN & CADASTRO */
+  .bodyLOGIN, .bodyCADASTRO {
+    background-color: #eff5fc; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+  }
+
+  .login-container, .Cadastro-container {
+    width: 100%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+  }
+
+  .login-card, .Cadastro-card {
+    background-color: white;
+    width: 100%; /* Ocupa a largura disponível do celular */
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 25px 20px; /* Reduzido padding interno */
+    border-radius: 15px;
+  }
+
+  .input-group {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  .botaoCADASTRO {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .BOTAO-google {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .termos-CADASTRO {
+    font-size: 13px;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .termos-CADASTRO label {
+    font-weight: normal;
+    font-size: 13px;
+    display: inline;
+  }
+
+  /* SOBRE NÓS */
+  .SOBRE-NOS {
+    font-size: 1.2rem; 
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .container-SOBRE {
+    display: flex;
+    flex-direction: column; /* Conteúdo empilhado no mobile */
+    width: 100%;
+    margin-left: 0; /* Removido os -85px */
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .container-SOBRE h1 {
+    font-size: 1.8rem; /* Diminuído para não estourar a tela */
+    margin-bottom: 15px; 
+    text-align: center;
+  }
+
+  .pepa-pigue, 
+  .missão-impossivel, 
+  .muitos-textos, 
+  .section-SOBRE2, 
+  .section-SOBRE3 {
+    margin-top: 0;  /* Zeradas todas as margens negativas perigosas */
+    margin-left: 0;
+  }
+
+  .ajeitar-sobre {
+    display: flex;
+    flex-direction: column; /* Conteúdo empilhado verticalmente */
+    align-items: center;
+  }
+
+  .prabaixo {
+    margin-top: 15px;
+    margin-left: 0; /* Alinhado ao centro */
+    text-align: center;
+  }
+
+  .divider {
+    width: 60px; /* Divisor menor e centralizado */
+    margin: 10px auto 20px auto; 
+  }
+
+  .logo-somos {
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .section-SOBRE {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .text-SOBRE {
+    padding: 20px 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-SOBRE p {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .IDOSOS-img {
+    width: 100%;
+  }
+
+  .IDOSOS-img img {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%; /* Ocupa a largura total da tela com segurança */
+    border-radius: 20px; /* Bordas suavizadas para o mobile */
+  }
+
+  /* --- PRODUTO (SOBRE) --- */
+  .watch-safewatch, 
+  .imagensrelogios, 
+  .tudo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 0;
+    gap: 15px;
+  }
+
+  .margin-popizinho {
+    margin-bottom: 0;
+  }
+
+  /* --- EQUIPE --- */
+  .fotos-safewatch {
+    justify-content: center;
+    gap: 25px;
+    padding: 0 15px;
+  }
+
+  .member {
+    width: 100%; /* Cada membro ganha destaque individual */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* --- COMPROMISSO --- */
+  .benefit-row {
+    display: flex;
+    flex-direction: column; /* Itens empilhados */
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    gap: 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .benefit-item {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .textinho-rimem {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+
+  /* RECURSOS */
+  .recursos-SAFE {
+    padding: 20px 15px;
+  }
+
+  .recursos-SAFE h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .topo-IMAGEM {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .topo-IMAGEM img {
+    width: 100%; /* Imagem em destaque ocupando a largura do display */
+  }
+
+  .superman, .batman {
+    font-size: 22px;
+    margin-right: 0;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .botao-RECURSOS {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* GRID DOS CARDS DE RECURSOS */
+  .cards {
+    grid-template-columns: 1fr; /* Muda de 3 colunas para apenas 1 */
+    gap: 20px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .card {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    margin-top: 0;
+    font-size: 13px;
+  }
+
+  .card-imagem-recursos {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  /* PÁGINA APP & DOWNLOADS */
+  .text-PAGAPP {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+
+  .text-PAGAPP h1 {
+    margin-left: 0; /* Removido o empurrão de 720px */
+    font-size: 22px;
+  }
+
+  .text-PAGAPP p {
+    font-size: 16px;
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .downloads h2 {
+    font-size: 22px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .windows {
+    grid-template-columns: 1fr; /* Botões de download empilhados */
+    gap: 15px;
+    padding: 0 15px;
+    margin-bottom: 40px;
+  }
+
+  .windows-plataforma {
+    padding: 30px 20px; /* Tamanho de clique confortável e proporcional ao dedão */
+    justify-content: center;
+  }
+
+  .windows-plataforma img {
+    width: 40px;
+    margin-right: 20px;
+  }
+
+  /* PÁGINA DE COMPRA */
+  .comprar-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .product-comprar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fotos-COMPRAR {
+    flex-direction: row; /* Miniaturas ficam lado a lado horizontalmente no mobile */
+    overflow-x: auto; /* Permite arrastar para o lado se houver muitas fotos */
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .fotos-COMPRAR img {
+    width: 80px; /* Reduzidas para caberem na barra lateral/horizontal */
+  }
+
+  /* BOTÕES DE COMPRA */
+  .BOTAOzinho-comprar, 
+  .BOTAO-CARRINHO {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 10px; /* Removido paddings laterais estáticos de 250px e 205px */
+    text-align: center;
+    justify-content: center;
+    white-space: normal; /* Permite quebrar texto se necessário */
+    font-size: 16px;
+  }
+
+  .apresentaçãodoproduto {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .botaozao-COMPRAR {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* PAGAMENTO */
+  .box-pagamentao {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+  }
+
+  .conteudo-pagamentao {
+    display: flex;
+    flex-direction: column; /* Alinha a imagem e textos verticalmente */
+    align-items: center;
+    gap: 15px;
+    margin-left: 0; /* Removido recuo de 230px */
+    text-align: center;
+    width: 100%;
+  }
+
+  .valores-relogio {
+    text-align: center; /* Centraliza preços e parcelas no mobile */
+    margin-top: 10px;
+  }
+
+  .preco-relogio {
+    font-size: 22px;
+  }
+
+  .parcelas-relogio {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+  }
+
+  .imagem-produto-checkout {
+    width: 150px; /* Reduz ligeiramente a miniatura do produto */
+    height: auto;
+    position: relative; /* Remove o absolute para encaixar no fluxo */
+    margin-left: 0; /* Remove a margem negativa que sumia com a imagem */
+    display: block;
+  }
+
+  .linkParaIrNaLoja {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .PAGAMENTO {
+    max-width: 100%;
+    margin: 0 10px;
+    padding: 20px 15px; /* Reduz espaçamentos internos do card global */
+    box-sizing: border-box;
+  }
+
+  .section-PAGAMENTO {
+    margin-bottom: 25px;
+  }
+
+  .header-section {
+    flex-direction: column; /* Ícone e título empilhados */
+    gap: 8px;
+    text-align: center;
+  }
+
+  .header-section h2 {
+    font-size: 1.1rem;
+  }
+
+  .grid-PAGAMENTO {
+    display: flex;
+    flex-direction: column; /* Transforma campos lado a lado em lista vertical */
+    gap: 15px;
+    margin-bottom: 0;
+  }
+
+  .nome-pagamento {
+    width: 100%;
+  }
+
+  input, select {
+    padding: 12px;
+    font-size: 16px; /* Evita que o iOS dê zoom automático ao focar no campo */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Busca de CEP */
+  .cep-group {
+    display: flex;
+    flex-direction: column; /* Empilha campo de CEP e botão Buscar */
+    gap: 10px;
+    width: 100%;
+  }
+
+  .btn-secundario {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Métodos de Pagamento */
+  .pay-methods {
+    display: flex;
+    flex-direction: column; /* Abas de Cartão/PIX/Boleto ficam uma abaixo da outra */
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .method {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+
+  /* Área do PIX */
+  .pix-area {
+    display: flex;
+    flex-direction: column; /* QR Code em cima, instruções embaixo */
+    gap: 20px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qr-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Campos do Cartão de Crédito */
+  .input-with-icons {
+    display: flex;
+    flex-direction: column-reverse; /* Coloca as bandeiras de forma acessível */
+    align-items: stretch;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .input-with-icons input {
+    width: 100%;
+  }
+
+  .card-logos {
+    position: relative;
+    right: 0;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .input-help {
+    width: 100%;
+  }
+
+  .help-icon {
+    display: none; /* Oculta o ícone flutuante de ajuda no mobile para limpar o layout */
+  }
+
+  /* Área do Boleto */
+  .boleto-area {
+    padding: 15px;
+  }
+
+  .boleto-info p {
+    font-size: 15px;
+  }
+
+  .boleto-info ul {
+    padding-left: 15px;
+    place-items: start;
+    text-align: left;
+  }
+
+  /* Botão Finalizar Pagamento */
+  .botao-pagamento {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 15px; /* Substitui os 340px estáticos por preenchimento fluido */
+    font-size: 16px;
+    text-align: center;
+    white-space: normal;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* Termos e Condições */
+  .centralizar-termos {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .textao-termo {
+    font-size: 1.8rem; /* Reduz título gigante de termos */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .termo-item {
+    display: flex;
+    flex-direction: column; /* Ícone no topo, texto abaixo */
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .icones-TERMOS {
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .conteudo-TERMO h2 {
+    font-size: 16px;
+  }
+
+  .conteudo-TERMO p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+}
