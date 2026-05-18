@@ -504,6 +504,8 @@ nav a {
     max-width: 50%;
     height: auto;
     margin-bottom: 10px;
+
+   
 }
 
 .conteudo-passo-two h3 {
@@ -1326,7 +1328,7 @@ label {
     border: 1px solid #e0e0e0;
     padding: 12px 15px;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .conteudo-pagamentao{
@@ -1347,17 +1349,25 @@ label {
   color: #e95c28;
 }
 
+.titulo-pagamentao{
+  margin-left: 60px;
+}
+
+.descricao-pagamentao{
+   margin-left: 60px;
+}
+
 .parcelas-relogio{
   margin: 5px 0 0 0;
   font-size: 14px;
 }
 
 .imagem-produto-checkout {
-  width: 180px; /* Reduzido de 220px para telas médias */
+  width: 160px; /* Reduzido de 220px para telas médias */
   height: auto;
   border-radius: 5px;
   position: absolute; 
-  margin-left: -190px; /* Alinhado à nova largura */
+  margin-left: -115px; /* Alinhado à nova largura */
 }
 
 .linkParaIrNaLoja{
