@@ -1265,6 +1265,7 @@ label {
   display: flex;
   flex-direction: column; 
   gap: 15px;
+  margin-top: 80px;
 }
 
 .fotos-COMPRAR img {
@@ -1277,13 +1278,19 @@ label {
   background-color: #e95c28;
   border-color: #e95c28;
   color: white;
-  padding: 12px 120px; /* Evita que o botão estoure os lados em telas compactas */
+  padding: 12px 360px; /* Evita que o botão estoure os lados em telas compactas */
   border-radius: 20px;
   font-weight: bold;
   font-size: 15px;
   white-space: nowrap;
   margin-bottom: 15px;
+
+   display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    text-align: center;
 }
+
 
 .linha-COMPRAR {
   border: 0;                
@@ -1296,6 +1303,7 @@ label {
 .BOTAO-CARRINHO{
   padding: 8px 80px; /* Ajustado proporcionalmente */
   border-radius: 20px;
+  padding: 12px 315px;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
