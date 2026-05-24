@@ -1,0 +1,2064 @@
+@media screen and (min-width: 1025px) and (max-width: 1722px){
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 12px; /* Reduzido o padding interno */
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px; /* Reduzido a margem inferior */
+}
+
+.gap{
+    gap: 50px; /* Reduzido pela metade para evitar quebras de linha */
+}
+.abas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 5px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Reduzido o espaçamento dos links */
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.junto{
+    display: flex;
+    gap: 15px;
+}
+
+.botoes {
+  background-color: #f4f4f4;
+  background: linear-gradient(to right, #f6edea);
+  padding: 8px 16px; /* Ajuste sutil nos botões */
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.botoes a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.botoes1 a{
+  text-decoration: none;
+  color: #f6edea;
+}
+
+.botoes1 {
+  background-color: #e95c28;
+  color: rgb(180, 171, 171);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.entrar {
+  background-color: #eee;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+.cadastrar {
+  background-color: #e95c28;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+/*banner*/
+/* CAIXA PRINCIPAL */
+.banner {
+  margin: 30px; /* Margem ajustada */
+}
+
+/* FUNDO GRADIENTE */
+.banner-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #e95c28, #0a2a66);
+  border-radius: 30px;
+  margin: 35px; /* Reduzido para dar mais espaço interno */
+}
+
+/* TEXTO */
+.texto {
+  color: white;
+  max-width: 420px; /* Diminuído para comportar telas menores */
+}
+
+.texto h1 {
+  font-size: 24px; /* Diminuído o título principal */
+}
+
+.texto p {
+  margin: 12px 0;
+  font-size: 13px; /* Fonte levemente menor */
+}
+
+/* BOTÕES */
+.botao {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-comprar {
+  background-color: #e95c28;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-saiba {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*caracteristicas safewatch*/
+.beneficios {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.item {
+  max-width: 180px; /* Compactado o tamanho do bloco */
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.itemB{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item img {
+  width: 35px; /* Ícones menores */
+  margin-bottom: 8px;
+  align-items: center;
+  display: flex;
+}
+
+.item h3 {
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+}
+
+.item p {
+  font-size: 11px;
+  color: #555;
+  display: flex;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #0a2a66;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  margin-top: auto;
+
+  display: flex;
+    flex-direction: column;
+    
+    margin: 0; /* Remove margens padrões do navegador */
+    box-sizing: border-box;
+}
+
+/* PARTE DE CIMA */
+.footer-conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px; /* Menor recuo à esquerda */
+}
+
+.coluna1 p{
+  margin-left: 20px;
+}
+
+.coluna1 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 11px;
+}
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.coluna2 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 11px;
+}
+
+.coluna3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.coluna3 a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 11px;
+}
+
+.coluna4-texto{
+  margin-left: 5px;
+} 
+
+/* REDES */
+.redes{
+  margin-right: 45px; /* Margem reduzida */
+  gap: -10px;
+}
+
+/* LINHA */
+.linha {
+  height: 1px;
+  background-color: #ccc;
+  margin: 15px 0;
+}
+
+/* PARTE DE BAIXO */
+.footer-baixo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  align-items: center;
+  font-size: 11px;
+}
+
+.pagamentos {
+  margin-right: 35px;
+  display: flex;
+  gap: 15px;
+}
+
+/*app*/
+.conexao {
+  display: flex;
+           
+  margin-top: -50px;
+  
+  gap: 500px;
+  place-items: center;
+
+  
+}
+
+
+#botao-app {
+  
+  top: 20px;        
+  right: 40px;
+  display: flex;
+  font-weight: bolder;
+   width: max-content;
+   margin-left: auto;
+   margin-right: 50px;
+   
+}
+#botao-app a{
+  text-decoration: none;
+  
+}
+
+
+
+.texto-conezao{
+color: #002d62; 
+font-size: 30px;
+ max-width: 600px;
+  
+text-align: center;
+display: flex;
+
+  clear: both; 
+ 
+
+  display: inline-block;
+  
+     align-items: center;
+  text-align: center;
+ 
+  display: flex;
+
+  margin-top: 2px;
+
+}
+
+.subtitulo-app{
+color: #ff6a00; 
+font-weight: bold;
+
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+ 
+  display: flex;
+
+
+margin-top: 25px;
+}
+
+
+
+
+.passo {
+
+ 
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  
+ 
+    
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 30px 40px;
+  font-family: sans-serif;
+  max-width: 500px;
+
+  margin-left: -542px;
+}
+
+.passo p{
+  margin: 0;
+}
+
+
+.textossAPP{
+  justify-content: center;
+  display: block;
+  
+
+}
+
+.textaoAPP{
+font-size: 27px;
+}
+
+.textinhoAPP{
+  font-size: 17px;
+  font-weight: 20px;
+}
+
+
+.botoes-app {
+
+  display: flex;
+  align-items: center;              
+  margin-top: 50px;         
+  margin-left: -425px;
+  
+}
+
+.tudo-do-app{
+  margin-top: 130px;
+  margin-left: 120px;
+}
+
+.imagem-app{
+  display: flex;
+  justify-content: flex-end;
+   align-items: flex-start; 
+   margin-top: -560px; 
+   margin-right: 13px; 
+
+   
+}
+.cadeadinho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+/*lojas*/
+.loja {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+/* TOPO */
+.topo {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: end;
+  margin-right: 150px; /* Ajustado recuo */
+}
+
+.filtros {
+  display: flex;
+  gap: 20px;
+}
+
+/* GRID */
+.produtos-comprar {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+/* CARD */
+.card-LOJA {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.avaliacao {
+  font-size: 14px;
+  color: #ff6a00;
+}
+
+.info h3 {
+  margin: 8px 0 4px;
+  font-size: 15px;
+}
+
+.parcelado {
+  font-size: 12px;
+  color: #777;
+}
+
+.botao-loja {
+  margin-top: 8px;
+  background: #ff6a00;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/*linha*/
+.linha-divisora {
+  border: 0;                
+  height: 1px;              
+  background-color: #333;   
+  opacity: 0.3;             
+  margin: 60px 0; /* Espaço reduzido entre seções */          
+  width: 100%;              
+}
+
+/*funcionamento*/
+.como-funciona {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px; /* Menor espaço entre os blocos */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.passo1 {
+  position: relative; 
+  flex: 1;
+  margin-top: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-family: sans-serif;
+  max-width: 420px; /* Blocos mais estreitos para a tela menor */
+}
+
+.numero {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #ff6600; 
+    color: white;
+    width: 35px; /* Tamanho do círculo ligeiramente menor */
+    height: 35px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    z-index: 2;
+}
+
+.conteudo-passo-one{
+  margin-top: 22px;
+}
+
+.conteudo-passo-one img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+
+.conteudo-passo-one h3 {
+    color: #003366; 
+    font-size: 1rem; /* Reduzido de 1.1rem */
+    margin-bottom: -45px; /* Suavizada a margem negativa antiga */
+}
+
+.conteudo-passo-one p {
+    color: #666;
+    font-size: 0.85rem; /* Ajuste sutil */
+    margin-top: 55px; /* Reduzido proporcionalmente */
+    max-width: 380px; /* Reduzido para caber na largura total menor */
+}
+
+.conteudo-passo-two img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+
+   
+}
+
+.conteudo-passo-two h3 {
+    color: #003366; 
+    font-size: 1rem;
+    margin-bottom: -45px;
+}
+
+.conteudo-passo-two p {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 55px;
+}
+
+.conteudo-passo-three{
+  margin-top: 22px;
+}
+
+.conteudo-passo-three img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 30px; /* Menor recuo para centralizar melhor */
+}
+
+.conteudo-passo-three h3 {
+    color: #003366; 
+    font-size: 1rem;
+    margin-bottom: -5px;
+}
+
+.conteudo-passo-three p {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+
+.colunaFUNCIONAMENTO{
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  margin-right: -10px;
+}
+
+.subtitulo-funcionamento{
+  font-weight: bold;
+  color: #ff6a00; 
+  font-size: 15px; /* Reduzido de 17px */
+  margin-bottom: 8px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.texto-funcionamento{
+  color: #002d62; 
+  font-size: 24px; /* Reduzido de 30px */
+  margin: 0;
+  text-align: center;
+}
+
+.subtituloFUNCIO{
+  font-size: 11px;
+  text-align: center;
+}
+
+/*FAQ*/
+.colunaFAG{
+  flex-direction: column;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.foto-mulher{
+  margin-left: -150px; /* Reduzido o recuo violento para não sumir da tela */
+}
+
+.subtitulo-FAG{
+  font-weight: bold;
+  color: #ff6a00; 
+  font-size: 17px;
+  margin-bottom: 8px;
+  margin-top: -30px;
+  text-align: center;
+  
+}
+
+
+
+.texto-FAG{
+  color: #002d62; 
+  font-size: 27px;
+  margin: 0;
+  text-align: center;
+}
+
+.fag-geral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    max-width: 850px; /* Estreitado para o layout não vazar nas laterais */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.faq-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Cantos um pouco mais sutis */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.faq-card img{
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.faq-content h3 {
+    margin: 0 0 5px 0;
+    color: #003366; 
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.faq-content p {
+    margin: 0;
+    color: #555;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* banner */
+.banner-conteudo {
+  display: flex;
+  background: linear-gradient(90deg, #d35400 0%, #002244 40%);
+  border-radius: 30px;
+  padding: 15px;
+  padding: 0 30px 0 0; 
+}
+
+/* TEXTO */
+.textoMEIO{
+  color: white;
+  padding: 10px 15px;
+  justify-content: center;
+  max-width: 380px; /* Reduzido para dar espaço aos botões laterais */
+  align-items: center;
+  position: absolute;
+}
+
+.textoMEIO h1 { 
+  font-size: 1.1rem; 
+  margin: 0 0 5px; 
+  align-items: center;
+}
+
+.textoMEIO p {
+ font-size: 0.8rem; 
+ opacity: 0.9; 
+ line-height: 1.2;
+ align-items: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-right: -180px; /* Adaptado para telas com menos pixels de largura */
+}
+
+.stores{
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+}
+
+.stores img{
+  object-fit: cover;
+  border-radius: 8px;
+  max-height: 35px; /* Forçado teto máximo para os selos das lojas */
+}
+
+/* BOTÕES */
+.botaoBANNER {
+  display: flex;
+  gap: 12px;
+}
+
+.BOTAO-comprar {
+  background-color: #e95c28;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.BOTAO-saiba {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/*login*/
+ .bodyLOGIN {
+    background-color: #eff5fc; 
+    margin: 0;
+    
+    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+   justify-content: center;
+  
+}
+
+.login-container {
+
+margin-top: -20px;
+
+    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    padding: 40px 0;
+}
+
+/* BOX BRANCA (Tamanho fixo e fechada) */
+.login-card {
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* INPUTS E BOTÕES */
+.input-group {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #003366;
+    font-weight: bold;
+}
+
+.textinhoLOGIN{
+  color: #003366;
+  margin-top: 10px;
+}
+
+
+.botaoCADASTRO{
+  margin-top: 5px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7a1a;
+  color: white;
+  cursor: pointer;
+   font-size: 16px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.botaoCADASTRO a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #aaa;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: -2px;
+}
+
+.BOTAO-google{
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+     margin-bottom: 25px;
+}
+
+
+.textoCADASTRO{
+  text-align: left;
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.textoCADASTRO a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+/*cadastro*/
+.bodyCADASTRO {
+    background-color: #eff5fc; 
+    margin: 0;
+    
+    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+   justify-content: center;
+  
+}
+
+.Cadastro-container {
+
+margin-top: -20px;
+
+    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    padding: 40px 0;
+}
+
+/* BOX BRANCA (Tamanho fixo e fechada) */
+.Cadastro-card {
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* INPUTS E BOTÕES */
+.input-group {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #003366;
+    font-weight: bold;
+}
+
+.textinhoCADASTRO{
+  color: #003366;
+  
+}
+
+
+.botaoCADASTRO{
+  margin-top: 5px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7a1a;
+  color: white;
+  cursor: pointer;
+   font-size: 16px;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.botaoCADASTRO a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.divider1 {
+    margin: 20px 0;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: -2px;
+}
+
+.BOTAO-google{
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+     margin-bottom: 25px;
+}
+
+.termos-CADASTRO{
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+  
+  
+}
+.termos-CADASTRO a{
+  text-decoration: none;
+
+}
+
+.termos-CADASTRO label{
+  font-weight: normal;
+  font-size: 14px;
+  display: flex
+  
+}
+
+.textoCADASTRARSE{
+  text-align: center;
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.textoCADASTRARSE a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+/*sobre nós*/
+.SOBRE-NOS{
+  color: #1a2a5a; 
+  font-weight: bold; 
+  font-size: 1.4rem; 
+  
+}
+
+.container-SOBRE {
+    display: flex;
+    width: 100%;
+    
+    margin-left: -85px;
+}
+
+.container-SOBRE h1{
+   color: #1a2a5a; 
+   font-size: 2.8rem; 
+   margin-bottom: 20px; 
+   
+  }
+
+.pepa-pigue{
+  margin-top: -80px;
+}
+
+.missão-impossivel{
+  margin-left: -80px;
+ margin-top: -0px;
+}
+
+.ajeitar-sobre{
+   display: flex;
+    
+}
+
+.muitos-textos{
+   margin-top: -35px;
+   
+}
+
+ 
+.prabaixo{
+  margin-top: 23px;
+  margin-left: -292px;
+}
+
+.divider 
+{ width: 100px; 
+  height: 3px; 
+  background: #ff7043; 
+  margin: 10px 0 30px; 
+}
+
+.logo-somos{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: -13px;;
+}
+
+.section-SOBRE {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    
+}
+
+
+.text-SOBRE {
+    flex: 1;
+    padding: 60px 5% 60px 10%;
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+}
+
+.text-SOBRE p{
+ max-width: 600px;
+ 
+}
+
+
+
+
+.IDOSOS-img { flex: 1; }
+.IDOSOS-img img {
+
+  margin-left:  87px;
+  margin-top: 30px;
+    width: 90%;
+   
+     border-radius: 40px 10px 40px 80px; 
+    overflow: hidden;
+}
+
+
+
+/* --- PRODUTO --- */
+.section-SOBRE2{
+  margin-top: -50px;
+}
+
+.watch-safewatch{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -120px; /* Suavizado reposicionamento vertical */
+    margin-right: 20px;
+}
+
+.imagensrelogios{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -100px;
+    margin-left: 1170px;
+
+    width: 300px;
+    height: 300px;
+}
+
+.margin-popizinho{
+  margin-bottom: 0px;
+}
+
+.tudo-sobre{
+  flex-direction: row;
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  margin-right: 80px; /* Reduzido o recuo à direita */
+}
+
+/* --- EQUIPE --- */
+.section-SOBRE3{
+  margin-top: -140px; /* Reajustado recuo do bloco */
+}
+
+.fotos-safewatch {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.member{
+  text-align: center; 
+  width: 150px; 
+}
+
+.member img {
+    width: 110px; 
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.member h3 { 
+  color: #1a2a5a; 
+  font-size: 1rem; 
+}
+.member p { 
+  color: #777;
+  font-size: 0.8rem; 
+}
+
+/* --- COMPROMISSO --- */
+
+.section-SOBRE4{
+  margin-top: -40px;
+}
+
+.benefit-row {
+    display: flex;
+    gap: 20px;
+
+    margin: 30px 0;
+     width: fit-content;
+    
+     margin-left: 70px;
+
+     margin-top: -40px;
+}
+
+.benefit-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.imagem-coração{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+.textinho-rimem{
+  margin-left: 75px;
+  margin-bottom: 60px;
+}
+
+/*recursos*/
+.recursos-SAFE{
+ 
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.recursos-SAFE h1 {
+  color: #1b3a6b;
+  
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.topo-IMAGEM {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.topo-IMAGEM img {
+  width: 60%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.titulo-RECURSOS2{
+display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centraliza horizontalmente os blocos */
+    text-align: center !important;  /* Centraliza o texto dentro de cada linha */
+
+    margin-right: 5px;
+}
+
+#cardparaarrumarmeio{
+  margin-left: 49px;
+}
+
+.superman{
+   font-size: 26px;
+  font-weight: bold;
+  color: #1b3a6b;
+ 
+  margin-top: 20px;
+  display: flex;
+  margin-right: 50px;
+
+ 
+}
+
+.batman{
+  font-size: 26px;
+  font-weight: bold;
+  color: #1b3a6b;
+  margin-top: -50px;
+  display: flex;
+  margin-right: 50px;
+  
+}
+
+.botao-RECURSOS {
+  background: #ff6a00;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+
+/* GRID DOS CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 200px;
+  margin-left: 50px;
+   max-width: 1763px;
+   margin-top: 70px;
+   
+margin-bottom: 10px;
+  height: 100%; 
+  
+}
+
+#cardparaarrumar{
+  margin-right: 55px;
+}
+
+.card {
+ 
+   background-color: #ffffff;
+    padding: 15px;
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  
+}
+
+.card h3 {
+ 
+  font-size: 1.25rem;
+    
+    margin-bottom: 12px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.card p {
+  
+   margin-top: -5px;
+    line-height: 1.3;
+}
+
+.card-imagem-recursos{
+   display: flex;
+    align-items: center; /* Alinha o ícone verticalmente ao centro do texto */
+    gap: 5px;           /* Espaço entre a imagem e o texto */
+  
+
+
+    border: 1px solid #e0e0e0;    /* Borda fina e cinza clara */
+    border-radius: 15px;        /* Arredonda os cantos da borda */
+    padding: 20px ;   /* Espaço interno para o conteúdo não esmagar a borda */
+    
+    margin-bottom: 15px;       /* Espaço entre um cartão e outro */
+}
+
+/*PAGINA APP*/
+.text-PAGAPP {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -40px;
+    margin-top: 30px;
+}
+
+.text-PAGAPP h1{
+   margin-left: 0px; /* Zerado recuo de 720px para centralizar corretamente */
+   font-size: 2rem;
+}
+
+.text-PAGAPP p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff7a1a;
+    margin-top: -5px;
+    max-width: 500px;
+    margin-left: 0px; /* Centralizado */
+}
+
+/*linha*/
+.linha-divisora {
+  border: 0;                
+  height: 1px;              
+  background-color: #333;   
+  opacity: 0.3;             
+  margin: 50px 0;           
+  width: 100%;              
+}
+
+.downloads h2{
+  color: #002d62;
+  font-size: 26px;
+  margin-left: 4px;
+  margin-top: -10px;
+}
+
+.windows {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px; /* Reduzido de 80px */                    
+  max-width: 700px;
+  margin: 0 auto;                
+  margin-bottom: 40px;
+}
+
+/* Botoes de download da plataforma */
+.windows-plataforma {
+  display: flex;
+  align-items: center;      
+  background-color: #002d62; 
+  color: white;
+  text-decoration: none;
+  padding: 40px 45px; /* Reduzido tamanho gigante de clique */
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.windows-plataforma img {
+  width: 45px;               
+  margin-right: 25px; /* Reduzido espaçamento interno */
+}
+
+/*COMPRAR*/
+
+  .comprar-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o bloco na tela */
+    gap: 5%;                 /* Espaço entre as fotos e o texto */
+    max-width: 1200px;
+    margin-left: auto;       /* Centraliza automaticamente nas laterais */
+    margin-right: auto;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+
+  /* Galeria de Fotos (Miniaturas + Foto Grande lado a lado) */
+  .product-comprar {
+    display: flex;
+    align-items: center;     /* Alinha verticalmente as miniaturas com o relógio grande */
+    gap: 30px;               /* Espaço entre a coluna de miniaturas e o relógio grande */
+  }
+
+  .fotos-COMPRAR {
+    display: flex;
+    flex-direction: column;  /* Miniaturas uma embaixo da outra */
+    gap: 20px;               
+  }
+
+  .fotos-COMPRAR img {
+    width: 130px;             /* Tamanho fixo controlado para as miniaturas */
+    height: auto;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Nova classe para a foto grande do relógio */
+  .foto-principal {
+    width: 320px;            /* Ajuste o tamanho conforme achar melhor */
+    height: auto;
+    display: block;
+  }
+
+  /* Bloco de Informações da Direita */
+  .apresentaçãodoproduto {
+    margin-top: 20px;
+    max-width: 700px;        /* Evita que o texto estique demais para o lado */
+  }
+
+  
+
+  .description {
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  /* Container dos Botões */
+  .botaozao-COMPRAR {
+    display: flex;
+    flex-direction: column;  /* Coloca um botão embaixo do outro */
+    gap: 15px;               /* Espaço entre os dois botões */
+    margin-top: 35px;
+    width: 100%;             
+  }
+
+  #BOTAOzinho-tradicional{
+     background-color: #e95c28;
+    border: 1px solid #e95c28;
+    padding: -0px 0;      
+    width: 100%;          
+    border-radius: 20px;
+    cursor: pointer;
+
+    margin-bottom: 20px;
+    color: white;   
+     font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    
+  }
+  
+
+  #OTAOzinho-tradicional a {
+    text-decoration: none !important; /* Força a remoção do sublinhado */
+    color: white !important;          /* Força o texto a ficar branco */
+    font-weight: bold;
+    font-size: 17px;
+    display: block;                   /* Faz o clique funcionar em todo o botão */
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Botão Laranja (Comprar Agora) */
+  .BOTAOzinho-comprar {
+    background-color: #e95c28;
+    border: 1px solid #e95c28;
+    padding: 14px 0;      
+    width: 100%;          
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* REMOVE O SUBINHADO E COR AZUL DO LINK INTERNO */
+  .BOTAOzinho-comprar a {
+    text-decoration: none !important; /* Força a remoção do sublinhado */
+    color: white !important;          /* Força o texto a ficar branco */
+    font-weight: bold;
+    font-size: 17px;
+    display: block;                   /* Faz o clique funcionar em todo o botão */
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Botão Branco (Adicionar ao Carrinho) */
+  .BOTAO-CARRINHO {
+    background-color: white;
+    border: 1px solid #333;
+    padding: 8px 0;      
+    width: 100%;          
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+
+    display: none;
+  }
+
+  /* REMOVE O SUBINHADO DO LINK DO CARRINHO */
+  .BOTAO-CARRINHO a {
+    text-decoration: none !important;
+    color: #333 !important;           /* Texto escuro para contrastar com o fundo branco */
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+  }
+
+  .linha-COMPRAR {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    opacity: 0.3;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+
+
+
+/*Pagamento*/
+.box-pagamentao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.conteudo-pagamentao{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 120px; /* Reduzido de 230px para o produto não fugir da tela */
+}
+
+.valores-relogio{
+  text-align: right;
+  margin-top: 12px;
+}
+
+.preco-relogio{
+  font-size: 22px; /* Ajuste leve na fonte */
+  font-weight: bold;
+  color: #e95c28;
+}
+
+.titulo-pagamentao{
+  margin-left: 60px;
+}
+
+.descricao-pagamentao{
+   margin-left: 60px;
+}
+
+.parcelas-relogio{
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.imagem-produto-checkout {
+  width: 160px; /* Reduzido de 220px para telas médias */
+  height: auto;
+  border-radius: 5px;
+  position: absolute; 
+  margin-left: -115px; /* Alinhado à nova largura */
+}
+
+.linkParaIrNaLoja{
+  margin-top: 15px;
+}
+
+:root {
+    --primary-blue: #1a3a8a;
+    --light-gray: #f8f9fa;
+    --border-color: #e0e0e0;
+    --text-muted: #6c757d;
+}
+
+.PAGAMENTO {
+    max-width: 700px; /* Compactado ligeiramente para telas menores */
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.section-PAGAMENTO {
+    margin-bottom: 30px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.header-section h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--primary-blue);
+}
+
+.header-section p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.grid-PAGAMENTO {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.nome-pagamento{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #444;
+}
+
+input, select {
+    padding: 10px; /* Inputs ligeiramente mais compactos */
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+/* Botão Buscar CEP */
+.cep-group {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-secundario {
+    padding: 0 12px;
+    border: 1px solid var(--primary-blue);
+    background: transparent;
+    color: var(--primary-blue);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+/* Métodos de Pagamento */
+.pay-methods {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.pay-methods a{
+  text-decoration: none;
+}
+
+.method {
+    flex: 1;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.method.active {
+    border: 2px solid var(--primary-blue);
+    background-color: #f0f4ff;
+}
+
+.method strong {
+    display: block;
+    color: var(--primary-blue);
+    font-size: 0.9rem;
+}
+
+.method span {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+/* Área do PIX */
+.pix-area {
+    display: flex;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qr-box {
+    width: 90px;
+    height: 90px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+}
+
+/* Cartão */
+.input-with-icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icons input {
+    width: 85%; /* Um pouco mais de espaço para preenchimento */
+}
+
+.card-logos {
+    right: 8px;
+    display: flex;
+    gap: 6px;
+    object-fit: contain;
+}
+
+/* Campo CVV com ícone de ajuda */
+.input-help {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.help-icon {
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #999;
+    cursor: help;
+}
+
+/* Boleto */
+.boleto-area {
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.boleto-info p {
+    font-weight: bold;
+    color: var(--primary-blue);
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.boleto-info ul {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding-left: 15px;
+    display: block;
+    place-items: center;
+}
+
+.botao-pagamento {
+  background-color: #e95c28;
+  border-color: #e95c28;
+  padding: 12px 0; /* Trocado de padding fixo lateral de 340px para 100% de largura */
+  width: 100%;     /* Garante que ele ocupe o box perfeitamente sem quebrar a tela */
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  color: white;
+} 
+
+/*aba de carrinho*/
+
+ .carrinho-aba-lateral {
+      position: fixed;
+      top: 0;
+      right: -460px; /* Mantém escondido para fora da tela por padrão */
+      width: 420px;
+      height: 100vh;
+      background-color: #ffffff;
+      box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      transition: right 0.3s ease-in-out;
+  }
+
+  /* Classe controlada pelo JavaScript para abrir a aba */
+  .carrinho-aba-lateral.ativa {
+      right: 0;
+  }
+
+  /* Cabeçalho da aba lateral */
+  .carrinho-aba-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border-bottom: 1px solid #e0e0e0;
+  }
+
+  .carrinho-aba-header h2 {
+      margin: 0;
+      font-size: 1.3rem;
+      color: #000000;
+  }
+
+  .carrinho-aba-fechar {
+      background: none;
+      border: none;
+      font-size: 32px;
+      cursor: pointer;
+      color: #6c757d;
+      line-height: 1;
+  }
+
+  /* Área central onde fica o produto */
+  .carrinho-aba-corpo {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+  }
+
+  /* Adapta a sua box antiga para o formato vertical da aba sem estragar os outros modelos */
+  .carrinho-aba-lateral .box-pagamentao {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 15px;
+      margin-top: 15px;
+      background-color: #ffffff;
+      border: none;
+      padding: 10px;
+  }
+
+  /* Novos elementos internos da aba */
+  .cor-produto-carrinho {
+      margin-left: 60px;
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: #333;
+  }
+
+  .seletor-quantidade-carrinho {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: max-content;
+      margin-left: 60px;
+      margin-top: 10px;
+      background: #fff;
+  }
+
+  .btn-qtd {
+      background: none;
+      border: none;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #666;
+  }
+
+  .seletor-quantidade-carrinho input {
+      width: 30px;
+      height: 26px;
+      text-align: center;
+      border: none;
+      padding: 0 !important;
+      font-size: 14px;
+      font-weight: bold;
+  }
+
+  /* Rodapé fixado na base da aba lateral */
+  .carrinho-aba-footer {
+      padding: 20px;
+      background: #fff;
+      border-top: 1px solid #e0e0e0;
+  }
+
+  .subtotal-linha-carrinho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+  }
+
+  .subtotal-linha-carrinho strong {
+      font-size: 1.25rem;
+      color: #e95c28;
+  }
+
+  .btn-comprar-agora-carrinho {
+      width: 100%;
+      background-color: #e95c28; /* Laranja correspondente */
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+
+
+       display: none;
+  }
+
+   .botao-icone-carrinho {
+      display: flex;
+      align-items: center;
+      margin-left: 15px; /* Espaço entre o botão Cadastre-se e o Carrinho */
+  }
+
+ .botao-icone-carrinho img:hover {
+      width: 30px
+  }
+
+  /* Efeito de zoom leve ao passar o mouse */
+  .botao-icone-carrinho img:hover {
+      transform: scale(1.1);
+  }
+
+/* Termos e Condições */
+.centralizar-termos {
+  flex-direction: column;
+  place-items: center;
+  margin-top: 40px;
+  margin-bottom: 25px; 
+
+
+   display: grid; /* Obrigatório para o grid funcionar */
+  grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
+  gap: 10px;
+}
+
+.icones-TERMOS {
+    display: flex;
+    margin-top: 20px;
+    width: 38px;         
+    height: 38px;        
+}
+
+.termo-item {
+    background-color: #ffffff;
+    border: 1px solid #eef2f5;
+    border-radius: 8px; 
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
+    margin-top: -15px;
+}
+
+.textao-termo {
+  color: #1a2a5a; 
+  font-size: 1.5rem; /* Reduzido de 2.8rem */
+  margin-bottom: 20px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo-TERMO h2 {
+    color: #1a2a5a; 
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.conteudo-TERMO p {
+    color: #555555; 
+    font-size: 13px;
+    max-width: 500px; /* Ajustado para caixas menores */
+}
+
+
+
+
+}
