@@ -6,36 +6,41 @@
     overflow-x: hidden; /* Evita rolagem lateral indesejada */
   }
 
+  /* NAVBAR E ABAS */
   .navbar {
     display: flex;
-    flex-direction: column; /* Elementos um abaixo do outro */
+    flex-direction: column; /* Empilha logo e menu em telas menores */
+    gap: 15px;
     align-items: center;
     justify-content: center;
-    gap: 15px;
     padding: 15px;
     border-bottom: 2px solid #000000;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+   
   }
 
   .gap {
-    gap: 15px; /* Reduzido o espaço gigante */
+    gap: 20px; /* Reduzido de 100px para não quebrar a tela */
   }
 
   .abas {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; /* Permite quebrar linha se não couber */
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 15px;
     padding: 10px;
     border-bottom: 2px solid #000000;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   nav {
     display: flex;
-    flex-direction: column; /* Links em lista */
     align-items: center;
-    gap: 12px; 
+    gap: 15px; 
+
+   
   }
 
   nav a {
@@ -47,57 +52,23 @@
 
   .junto {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 10px;
-    width: 100%;
   }
 
-  .botoes, .botoes1 {
-    width: 90%; /* Botões mais largos e fáceis de tocar */
-    text-align: center;
-    box-sizing: border-box;
-    padding: 12px 20px;
+  .botoes, .botoes1{
+    padding: 8px 16px;
     border-radius: 20px;
     font-weight: bold;
+    font-size: 13px;
   }
 
-  .botoes {
-    background-color: #f4f4f4;
-    background: linear-gradient(to right, #f6edea);
-  }
+  .botoes a { text-decoration: none; color: #000000;   background-color: #eee;
+  padding: 8px 10px;
+  border-radius: 20px;}
+  .botoes1 a { text-decoration: none;  color: white;  background-color: #e95c28; padding: 8px 10px;
+  border-radius: 20px;} 
 
-  .botoes1 {
-    background-color: #e95c28;
-    color: rgb(180, 171, 171);
-  }
 
-  .botoes a {
-    text-decoration: none;
-    color: #000000;
-  }
-
-  .botoes1 a {
-    text-decoration: none;
-    color: #f6edea;
-  }
-
-  .entrar, .cadastrar {
-    width: 90%;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 20px;
-  }
-
-  .entrar {
-    background-color: #eee;
-  }
-
-  .cadastrar {
-    background-color: #e95c28;
-    color: white;
-  }
 
   /* BANNER */
   .banner {
@@ -112,8 +83,16 @@
     background: linear-gradient(to right, #e95c28, #0a2a66);
     border-radius: 20px;
     margin: 15px 0;
-    padding: 25px 15px;
+    padding: 20px 15px;
     text-align: center;
+
+    width: 85%;
+    margin-left: 15px;
+  }
+
+  .banner-conteudo img{
+    width: 400px;
+    height: 200px;
   }
 
   .texto {
@@ -141,7 +120,7 @@
   .btn-comprar, .btn-saiba {
     display: block;
     text-align: center;
-    padding: 12px 20px;
+    padding: 12px 10px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -345,10 +324,14 @@
   }
 
   .imagem-app {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    
     margin-top: 20px; /* Transformado margem negativa em positiva */
-    margin-right: 0; 
+    
+margin-left: -46px;
+    width: 550px;
+    height: 400px;
   }
 
   .imagem-app img {
@@ -438,6 +421,8 @@
 
   .conteudo-passo-one {
     margin-top: 15px;
+    place-items: center;
+    display: grid;
   }
 
   .conteudo-passo-one img {
@@ -449,7 +434,7 @@
   .conteudo-passo-two h3 {
     color: #003366;
     font-size: 1.1rem;
-    margin-bottom: 10px; /* Corrigido de -60px para positivo para não sobrepor o texto */
+    margin-bottom: -1px; /* Corrigido de -60px para positivo para não sobrepor o texto */
   }
 
   .conteudo-passo-one p, 
@@ -466,21 +451,28 @@
     margin-bottom: 15px;
   }
 
+    .conteudo-passo-two {
+   place-items: center;
+    display: grid;
+  }
+
   .conteudo-passo-three {
     margin-top: 15px;
+    place-items: center;
+    display: grid;
   }
 
   .conteudo-passo-three img {
     max-width: 70%;
     height: auto;
-    margin-bottom: 20px;
+    
     margin-left: 0; /* Zerado o desalinhamento */
   }
 
   .conteudo-passo-three h3 {
     color: #003366;
     font-size: 1.1rem;
-    margin-bottom: 10px;
+    margin-bottom: -3px;
   }
 
   .conteudo-passo-three p {
@@ -603,6 +595,11 @@
     text-align: center;
   }
 
+.foto-mulher{
+  margin-left: -45px;
+  margin-bottom: -2px;
+}
+
   .textoMEIO {
     color: white;
     padding: 10px 0;
@@ -656,8 +653,13 @@
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 12px;
+  padding: 10px 10px;
     border-radius: 10px;
+
+    text-decoration: none;  color: white;  background-color: #e95c28; 
+  border-radius: 20px;
+
+  font-weight: bold;
   }
 
   /* LOGIN & CADASTRO */

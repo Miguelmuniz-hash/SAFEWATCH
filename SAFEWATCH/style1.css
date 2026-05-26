@@ -344,7 +344,7 @@ margin-top: 25px;
 .passo {
 
  
-  margin-top: 40px;
+ 
   display: flex;
   align-items: center;
   
@@ -354,9 +354,10 @@ margin-top: 25px;
   border-radius: 30px;
   padding: 30px 40px;
   font-family: sans-serif;
-  max-width: 500px;
+  max-width: 600px;
 
-  margin-left: -542px;
+  justify-content: flex-start;
+  margin-left: -612px;
 }
 
 .passo p{
@@ -391,7 +392,7 @@ font-size: 27px;
 }
 
 .tudo-do-app{
-  margin-top: 130px;
+  margin-top: 50px;
   margin-left: 120px;
 }
 
@@ -400,21 +401,20 @@ font-size: 27px;
   justify-content: flex-end;
    align-items: flex-start; 
    margin-top: -560px; 
-   margin-right: 13px; 
+   margin-right: 17px; 
 
-   
 }
 .cadeadinho{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: -6px;
   margin-bottom: -30px;
 }
 
 /*lojas*/
 .loja {
-  margin-top: 40px;
+  margin-top: 67px;
   margin-left: 60px;
 }
 
@@ -438,8 +438,8 @@ font-size: 27px;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 45px;
-  margin-top: 45px;
+  margin-bottom: 50px;
+  margin-top: 72px;
 }
 
 /* CARD */
@@ -447,7 +447,7 @@ font-size: 27px;
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .avaliacao {
@@ -489,7 +489,7 @@ font-size: 27px;
 .como-funciona {
     display: flex;
     justify-content: space-around;
-    gap: 25px; /* Menor espaço entre os blocos */
+    gap: 62px; /* Menor espaço entre os blocos */
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -504,7 +504,7 @@ font-size: 27px;
   border: 1px solid #ccc;
   border-radius: 30px;
   font-family: sans-serif;
-  max-width: 420px; /* Blocos mais estreitos para a tela menor */
+  max-width: 440px; /* Blocos mais estreitos para a tela menor */
 }
 
 .numero {
@@ -658,7 +658,7 @@ font-size: 27px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
-    max-width: 850px; /* Estreitado para o layout não vazar nas laterais */
+    max-width: 95.8%; /* Estreitado para o layout não vazar nas laterais */
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -1102,7 +1102,7 @@ label {
 .IDOSOS-img { flex: 1; }
 .IDOSOS-img img {
 
-  margin-left:  87px;
+  margin-left:  70px;
   margin-top: 30px;
     width: 90%;
    
@@ -1129,8 +1129,8 @@ label {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    margin-top: -100px;
-    margin-left: 1170px;
+    margin-top: -80px;
+    margin-left: 1280px;
 
     width: 300px;
     height: 300px;
@@ -1150,7 +1150,7 @@ label {
 
 /* --- EQUIPE --- */
 .section-SOBRE3{
-  margin-top: -140px; /* Reajustado recuo do bloco */
+  margin-top: -163px; /* Reajustado recuo do bloco */
 }
 
 .fotos-safewatch {
@@ -1195,7 +1195,7 @@ label {
     margin: 30px 0;
      width: fit-content;
     
-     margin-left: 70px;
+     margin-left: 85px;
 
      margin-top: -40px;
 }
@@ -1216,7 +1216,7 @@ label {
 }
 
 .textinho-rimem{
-  margin-left: 75px;
+  margin-left: 88px;
   margin-bottom: 60px;
 }
 
@@ -1511,7 +1511,7 @@ margin-bottom: 10px;
   }
   
 
-  #OTAOzinho-tradicional a {
+  #BOTAOzinho-tradicional a {
     text-decoration: none !important; /* Força a remoção do sublinhado */
     color: white !important;          /* Força o texto a ficar branco */
     font-weight: bold;

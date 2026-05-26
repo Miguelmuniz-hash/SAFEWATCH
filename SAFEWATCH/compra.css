@@ -1,4 +1,7 @@
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  
+
+
 
   body {
     margin: 0;
@@ -719,19 +722,12 @@ margin-left: -70px;
 
   .termos-CADASTRO {
     font-size: 13px;
-  margin-left: -2px;
-  margin-bottom: 5px;
-    
-      display: flex;
-  align-items: center; /* Alinha o quadradinho e o texto perfeitamente no meio */
-
-  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    align-items: flex-start;
+    gap: 5px;
   }
 
   .termos-CADASTRO label {
     font-size: 13px;
-    display: flex;
-    margin-right: 150px;
   }
 
   /* SOBRE NÓS */
@@ -1151,19 +1147,13 @@ margin-top: -10px;
    
   }
 
-  .linha-COMPRAR{
-    width: 94%;
-    margin-right: 12px;
-  }
-
   #imagemtradicional{
     display: flex;
     align-items: center;
     justify-content: center;
-    place-items: center;
-    margin-left: 93px;
+    margin-left: 80px;
     margin-bottom: 20px;
-    margin-top: -35px;
+    margin-top: -5px;
   }
 
   .fotos-COMPRAR img {
@@ -1195,8 +1185,8 @@ margin-top: -10px;
   justify-content: center;
 }
 .description{
-  max-width: 700px;
-  margin-left: 25px;
+  max-width: 840px;
+  margin-left: 10px;
   
 }
 
@@ -1218,7 +1208,7 @@ margin-top: -10px;
   }
 
   .botaozao-COMPRAR {
-   margin-left: -300px;
+    margin-left: 0;
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -1370,5 +1360,104 @@ margin-top: -10px;
     font-size: 13px;
     max-width: 100%;
   }
+
+
+
+
+/*COMPRA*/
+  .comprar-container {
+    flex-direction: column; /* Empilha foto do produto e detalhes da compra */
+    gap: 30px;
+   
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  .product-comprar {
+    flex-direction: column; /* Fotos ficam uma abaixo da outra ou em linha compacta */
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotos-COMPRAR {
+    flex-direction: row; /* Miniaturas ficam na horizontal embaixo/atrás da principal */
+    justify-content: center;
+    gap: 10px;
+   
+  }
+
+  #imagemtradicional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+  }
+
+  .fotos-COMPRAR img {
+  display: none;
+
+    width: 160px; 
+    height: 160px;
+    margin-top: -10px;
+  }
+
+  /* BOTÕES DE COMPRA */
+ 
+
+#BOTAOzinho-tradicional{
+    padding: 0px 0; 
+    width: 100%; 
+    max-width: 700px;
+    
+    background-color: #e95c28;
+    border: 1px solid #e95c28;     
+    border-radius: 20px;
+   
+
+}
+
+#btn-comprar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description{
+  max-width: 840px;
+  margin-left: 10px;
+  
+}
+
+
+.textocomprar{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.textocomprar a{
+  text-decoration: none;
+}
+
+  .apresentaçãodoproduto {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .botaozao-COMPRAR {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+#btn-carrinho{
+  display: none;
+}
 
 }
