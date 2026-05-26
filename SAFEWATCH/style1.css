@@ -1,5 +1,30 @@
 @media screen and (min-width: 1025px) and (max-width: 1722px){
 
+
+.botao-seniorpix{
+  background-color: #e95c28;
+  border-color: #e95c28;
+  padding: 12px 0px; /* Trocado de padding fixo lateral de 340px para 100% de largura */
+  
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  
+  margin-bottom: 15px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+   
+padding: -0px 0px;
+  justify-content: center;
+} 
+
+
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -8,14 +33,23 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+
   padding: 5px 12px; /* Reduzido o padding interno */
   border-bottom: 2px solid #000000;
   margin-bottom: 20px; /* Reduzido a margem inferior */
+ 
+
+     justify-content: space-around;
+   background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border: white; 
+  
+  
 }
+
 
 .gap{
     gap: 50px; /* Reduzido pela metade para evitar quebras de linha */
+    
 }
 .abas {
   display: flex;
@@ -34,9 +68,18 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color:  white;
   font-weight: bold;
 }
+
+nav a:hover {
+   font-size: 18px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+
 
 .junto{
     display: flex;
@@ -49,7 +92,9 @@ nav a {
   padding: 8px 16px; /* Ajuste sutil nos botões */
   border-radius: 20px;
   font-weight: bold;
+  
 }
+
 
 .botoes a{
   text-decoration: none;
@@ -75,11 +120,26 @@ nav a {
   border-radius: 20px;
 }
 
+.botoes :hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
 .cadastrar {
   background-color: #e95c28;
   color: white;
   padding: 8px 10px;
   border-radius: 20px;
+}
+
+.botoes1:hover {
+ font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 /*banner*/
@@ -128,6 +188,21 @@ nav a {
   font-weight: bold;
 }
 
+.btn-comprar:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+.btn-saiba:hover {
+  font-size: 18px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+
 .btn-saiba {
   background-color: white;
   color: black;
@@ -144,6 +219,10 @@ nav a {
   padding: 15px;
 }
 
+#problemacoração{
+  margin-top: 15px;
+}
+
 .item {
   max-width: 180px; /* Compactado o tamanho do bloco */
   text-align: left;
@@ -154,7 +233,19 @@ nav a {
   display: flex;
   align-items: center;
   gap: 15px;
+  border-radius: 15px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
+.itemB:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
 
 .item img {
   width: 35px; /* Ícones menores */
@@ -188,6 +279,8 @@ nav a {
     
     margin: 0; /* Remove margens padrões do navegador */
     box-sizing: border-box;
+
+    margin-bottom: auto;
 }
 
 /* PARTE DE CIMA */
@@ -197,6 +290,10 @@ nav a {
   margin-bottom: 25px;
 }
 
+
+.footer-fazer{
+  margin-bottom: -10px;
+}
 .coluna1 {
   display: flex;
   flex-direction: column;
@@ -237,13 +334,17 @@ nav a {
   font-size: 11px;
 }
 
-.coluna4-texto{
-  margin-left: 5px;
-} 
+.coluna4 h3{
+   margin-right: 55px;
+}
+
+.redes{
+  margin-left: 30px;
+}
 
 /* REDES */
 .redes{
-  margin-right: 45px; /* Margem reduzida */
+  margin-right: 45px;
   gap: -10px;
 }
 
@@ -261,6 +362,12 @@ nav a {
   margin-left: 45px;
   align-items: center;
   font-size: 11px;
+
+ 
+}
+
+.footer-fazer{
+ margin-bottom: 40px;
 }
 
 .pagamentos {
@@ -275,7 +382,7 @@ nav a {
            
   margin-top: -50px;
   
-  gap: 500px;
+  gap: 400px;
   place-items: center;
 
   
@@ -354,10 +461,19 @@ margin-top: 25px;
   border-radius: 30px;
   padding: 30px 40px;
   font-family: sans-serif;
-  max-width: 600px;
+  max-width: 500px;
 
   justify-content: flex-start;
-  margin-left: -612px;
+  margin-left: -540px;
+}
+
+.passo:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
 }
 
 .passo p{
@@ -391,6 +507,14 @@ font-size: 27px;
   
 }
 
+#botao-app:hover {
+ font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+ 
+
 .tudo-do-app{
   margin-top: 50px;
   margin-left: 120px;
@@ -402,6 +526,7 @@ font-size: 27px;
    align-items: flex-start; 
    margin-top: -560px; 
    margin-right: 17px; 
+   
 
 }
 .cadeadinho{
@@ -438,7 +563,7 @@ font-size: 27px;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 72px;
 }
 
@@ -489,7 +614,7 @@ font-size: 27px;
 .como-funciona {
     display: flex;
     justify-content: space-around;
-    gap: 62px; /* Menor espaço entre os blocos */
+    gap: 0px; /* Menor espaço entre os blocos */
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -505,6 +630,15 @@ font-size: 27px;
   border-radius: 30px;
   font-family: sans-serif;
   max-width: 440px; /* Blocos mais estreitos para a tela menor */
+}
+
+.passo1:hover{
+
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 .numero {
@@ -673,6 +807,15 @@ font-size: 27px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+.faq-card:hover {
+     transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
 .faq-card img{
   display: flex;
   align-items: center;
@@ -737,6 +880,13 @@ font-size: 27px;
   margin-right: -180px; /* Adaptado para telas com menos pixels de largura */
 }
 
+.BOTAO-comprar:hover {
+  font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
 .stores{
   flex-direction: row;
   display: flex;
@@ -754,6 +904,8 @@ font-size: 27px;
   display: flex;
   gap: 12px;
 }
+
+
 
 .BOTAO-comprar {
   background-color: #e95c28;
@@ -1023,7 +1175,7 @@ label {
 .container-SOBRE {
     display: flex;
     width: 100%;
-    
+    margin-top: -100px;
     margin-left: -85px;
 }
 
@@ -1103,7 +1255,7 @@ label {
 .IDOSOS-img img {
 
   margin-left:  70px;
-  margin-top: 30px;
+  margin-top: 150px;
     width: 90%;
    
      border-radius: 40px 10px 40px 80px; 
@@ -1114,7 +1266,7 @@ label {
 
 /* --- PRODUTO --- */
 .section-SOBRE2{
-  margin-top: -50px;
+  margin-top: -195px;
 }
 
 .watch-safewatch{
@@ -1129,9 +1281,9 @@ label {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    margin-top: -80px;
-    margin-left: 1280px;
-
+    margin-top: -250px;
+    margin-left: 1150px;
+ position: absolute;
     width: 300px;
     height: 300px;
 }
@@ -1150,7 +1302,8 @@ label {
 
 /* --- EQUIPE --- */
 .section-SOBRE3{
-  margin-top: -163px; /* Reajustado recuo do bloco */
+  margin-top: 130px; /* Reajustado recuo do bloco */
+  margin-bottom: -15px;
 }
 
 .fotos-safewatch {
@@ -1185,7 +1338,7 @@ label {
 /* --- COMPROMISSO --- */
 
 .section-SOBRE4{
-  margin-top: -40px;
+  margin-top: 50px;
 }
 
 .benefit-row {
@@ -1195,7 +1348,7 @@ label {
     margin: 30px 0;
      width: fit-content;
     
-     margin-left: 85px;
+     margin-left: 72px;
 
      margin-top: -40px;
 }
@@ -1216,7 +1369,7 @@ label {
 }
 
 .textinho-rimem{
-  margin-left: 88px;
+  margin-left: 75px;
   margin-bottom: 60px;
 }
 
@@ -1302,9 +1455,9 @@ display: flex !important;
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px 200px;
+  gap: 10px 150px;
   margin-left: 50px;
-   max-width: 1763px;
+   max-width: 1863px;
    margin-top: 70px;
    
 margin-bottom: 10px;
@@ -1319,14 +1472,15 @@ margin-bottom: 10px;
 .card {
  
    background-color: #ffffff;
-    padding: 15px;
-   
+    padding: 40px;
+   max-width: 400px;
     
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     
   
+ 
 }
 
 .card h3 {
@@ -1435,7 +1589,7 @@ margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center; /* Centraliza o bloco na tela */
-    gap: 5%;                 /* Espaço entre as fotos e o texto */
+    gap: 10%;                 /* Espaço entre as fotos e o texto */
     max-width: 1200px;
     margin-left: auto;       /* Centraliza automaticamente nas laterais */
     margin-right: auto;
