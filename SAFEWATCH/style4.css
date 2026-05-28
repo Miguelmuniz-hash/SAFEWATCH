@@ -356,10 +356,26 @@ margin-top: -10px;
     
     margin-top: 5px; /* Transformado margem negativa em positiva */
     
-margin-left: -52px;
+margin-left: -38px;
     width: 550px;
     height: 400px;
   }
+
+  .itemB:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+  .botao-seniorpix:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
 
   .imagem-app img {
     max-width: 80%;
@@ -1243,6 +1259,18 @@ max-width: 1000px;
     border: 1px solid #e95c28;     
     border-radius: 20px;
   }
+
+  .BOTAOzinho-comprar{
+  padding: 15px 0; 
+    width: 100%; 
+    max-width: 700px;
+    
+    background-color: #e95c28;
+    border: 1px solid #e95c28;     
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+ }
 
 #btn-comprar{
   display: flex;

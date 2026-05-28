@@ -1246,6 +1246,30 @@ margin: 15px;
   border: none;
 }
 
+.botao-seniorpix:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+.itemB{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.itemB:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
   /* GRID DOS CARDS DE RECURSOS */
  .cards {
   display: grid;
