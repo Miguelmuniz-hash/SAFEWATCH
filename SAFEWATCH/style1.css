@@ -23,6 +23,13 @@ padding: -0px 0px;
 } 
 
 
+.botao-seniorpix:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
 
 
 body {
@@ -41,6 +48,7 @@ body {
 
      justify-content: space-around;
    background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+   width: 100%;
   border: white; 
   
   
@@ -563,6 +571,7 @@ transition-timing-function: ease-in-out;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
+  
   margin-bottom: 20px;
   margin-top: 72px;
 }
@@ -573,6 +582,24 @@ transition-timing-function: ease-in-out;
   align-items: center;
   gap: 15px;
   margin-bottom: 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Cantos um pouco mais sutis */
+   height: 300px;
+    width:420px;
+
+         
+  justify-content: center;
+}
+
+.card-LOJA:hover{
+
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 .avaliacao {
@@ -599,6 +626,15 @@ transition-timing-function: ease-in-out;
   font-weight: bold;
   color: white;
 }
+
+.botao-loja:hover {
+font-size: 14px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
 
 /*linha*/
 .linha-divisora {
@@ -987,7 +1023,7 @@ label {
   padding: 12px;
   border: none;
   border-radius: 10px;
-  background-color: #ff7a1a;
+  background-color: #e95c28;
   color: white;
   cursor: pointer;
    font-size: 16px;
@@ -1024,6 +1060,14 @@ label {
      margin-bottom: 25px;
 }
 
+
+.inputgoogle:hover {
+font-size: 20px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
 
 .textoCADASTRO{
   text-align: left;
@@ -1096,12 +1140,20 @@ label {
   padding: 12px;
   border: none;
   border-radius: 10px;
-  background-color: #ff7a1a;
+  background-color:  #e95c28;
   color: white;
   cursor: pointer;
    font-size: 16px;
    margin-bottom: 15px;
    width: 100%;
+}
+
+.botaoCADASTRO:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
 }
 
 .botaoCADASTRO a{
@@ -1136,9 +1188,19 @@ label {
   text-align: left;
   font-size: 14px;
   display: flex;
-  
-  
+  margin-bottom: 9px;
+  align-items: center;
+  display: flex;
 }
+
+.loginTEXTINHO:hover{
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+
 .termos-CADASTRO a{
   text-decoration: none;
 
@@ -1266,7 +1328,7 @@ label {
 
 /* --- PRODUTO --- */
 .section-SOBRE2{
-  margin-top: -195px;
+  margin-top: -245px;
 }
 
 .watch-safewatch{
@@ -1282,7 +1344,7 @@ label {
     justify-content: flex-end;
     gap: 30px;
     margin-top: -250px;
-    margin-left: 1150px;
+    margin-left: 1300px;
  position: absolute;
     width: 300px;
     height: 300px;
@@ -1348,9 +1410,14 @@ label {
     margin: 30px 0;
      width: fit-content;
     
-     margin-left: 72px;
+     margin-left: 92px;
 
      margin-top: -40px;
+}
+
+.link-termos {
+  display: inline-block; /* 👈 Permite que o elemento aceite margens laterais */
+  margin-left: 6px;      /* 👈 Empurra o link para a direita */
 }
 
 .benefit-item {
@@ -1369,7 +1436,7 @@ label {
 }
 
 .textinho-rimem{
-  margin-left: 75px;
+  margin-left: 92px;
   margin-bottom: 60px;
 }
 
@@ -1385,6 +1452,15 @@ label {
   
   margin-bottom: 30px;
   margin-left: 50px;
+}
+
+.card-imagem-recursos:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
 }
 
 .topo-IMAGEM {
@@ -1413,6 +1489,7 @@ display: flex !important;
 
 #cardparaarrumarmeio{
   margin-left: 49px;
+
 }
 
 .superman{
@@ -1450,6 +1527,13 @@ display: flex !important;
   margin-bottom: 30px;
 }
 
+.botao-RECURSOS:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
 
 /* GRID DOS CARDS */
 .cards {
@@ -1664,6 +1748,14 @@ margin-bottom: 10px;
     
   }
   
+#BOTAOzinho-tradicional:hover {
+font-size: 18px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
 
   #BOTAOzinho-tradicional a {
     text-decoration: none !important; /* Força a remoção do sublinhado */
@@ -2004,6 +2096,14 @@ input, select {
   color: white;
 } 
 
+.botao-pagamento:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
 /*aba de carrinho*/
 
  .carrinho-aba-lateral {
@@ -2161,13 +2261,36 @@ input, select {
 .centralizar-termos {
   flex-direction: column;
   place-items: center;
-  margin-top: 40px;
-  margin-bottom: 25px; 
+  margin-top: 30px;
+  margin-bottom: 40px; 
 
-
+justify-content: center;
+place-items: center;
    display: grid; /* Obrigatório para o grid funcionar */
   grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
   gap: 10px;
+  max-width: 1000px;
+  margin-left: 370px;
+}
+
+.mudartermo{
+  margin-left: -50px;
+}
+
+.mudartermo2{
+  margin-left: -50px;
+}
+
+.mudartermo3{
+  margin-left: -30px;
+}
+
+.termo-item:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
 }
 
 .icones-TERMOS {

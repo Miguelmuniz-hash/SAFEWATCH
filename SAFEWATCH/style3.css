@@ -7,16 +7,18 @@
   }
 
   /* NAVBAR E ABAS */
-  .navbar {
+ .navbar {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Empilha logo e menu em telas menores */
     gap: 15px;
     align-items: center;
     justify-content: center;
     padding: 15px;
     border-bottom: 2px solid #000000;
     margin-bottom: 20px;
-
+margin-top: -10px;
+   background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+   
    
   }
 
@@ -45,7 +47,7 @@
 
   nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 14px;
   }
@@ -247,10 +249,16 @@
 
   #botao-app {
     display: flex;
+    justify-content: center;
     font-weight: bolder;
-    width: max-content;
-    margin: 20px auto; /* Centraliza na tela */
+    width: 90%;
+    margin: 20px auto;
   }
+
+  #botao-app a{
+    text-decoration: none;
+  }
+ 
 
   .texto-conezao {
     color: #002d62; 
@@ -678,9 +686,7 @@ margin-left: -70px;
   }
 
   /* LOGIN / CADASTRO CONTEXTO */
-  .bodyLOGIN, .bodyCADASTRO {
-    padding: 10px;
-  }
+ 
 
   .login-container, .Cadastro-container {
     padding: 20px 0;
@@ -759,6 +765,7 @@ margin-left: -70px;
   .section-SOBRE{
  max-width: 800px;
  margin-left: 0px;
+ margin-top:-50px;
  
 }
 .section-SOBRE2{
@@ -770,11 +777,12 @@ margin-left: -70px;
   align-items: center;      /* Centraliza tudo horizontalmente */
   text-align: center;       /* Garante que o texto quebre alinhado pelo meio */
   
-   
+   margin-top: -25px;
 } 
 .section-SOBRE3{
   max-width: 1800px;
    margin-left: -5px;
+   margin-top: -68px;
  display: flex;
   flex-direction: column;   /* Empilha o título, o texto e os relógios */
   align-items: center;      /* Centraliza tudo horizontalmente */
@@ -785,6 +793,7 @@ margin-left: -70px;
 .section-SOBRE4{
   max-width: 730px;
    margin-left: 18px;
+   margin-top: -40px;
 }
 
   .container-SOBRE h1 {
@@ -799,6 +808,10 @@ margin-left: -70px;
     margin-bottom: -15px;
   }
   
+
+.botao-icone-carrinho{
+  margin-right: 15px;
+}
 
   .ajeitar-sobre {
     display: flex;
@@ -893,6 +906,7 @@ margin-left: -70px;
   .member img {
     width: 100px; 
     height: 100px;
+    margin-top: -25px;
   }
 
   /* COMPROMISSO */
@@ -1128,6 +1142,32 @@ margin-top: -10px;
   
 
 /*COMPRA*/
+ .comprar-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .product-comprar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fotos-COMPRAR {
+    flex-direction: row; /* Miniaturas ficam lado a lado horizontalmente no mobile */
+    overflow-x: auto; /* Permite arrastar para o lado se houver muitas fotos */
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .fotos-COMPRAR img {
+    width: 80px; /* Reduzidas para caberem na barra lateral/horizontal */
+  }
+
+  /*COMPRA*/
   .comprar-container {
     flex-direction: column; /* Empilha foto do produto e detalhes da compra */
     gap: 30px;
@@ -1151,6 +1191,10 @@ margin-top: -10px;
    
   }
 
+  .loja{
+    text-align: center;
+  }
+
   .linha-COMPRAR{
     width: 94%;
     margin-right: 12px;
@@ -1158,24 +1202,42 @@ margin-top: -10px;
 
   #imagemtradicional{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    place-items: center;
-    margin-left: 93px;
+    
+    margin-left: -10px;
     margin-bottom: 20px;
-    margin-top: -35px;
+    margin-top: -40px;
   }
+
+#imagemlite{
+  margin-right: -40px;
+}
+
+#pro2mudas{
+  margin-right: -30px;
+}
+
+#seniormudas{
+  margin-right: -62px;
+}
 
   .fotos-COMPRAR img {
   display: none;
 
     width: 160px; 
     height: 160px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
 
   /* BOTÕES DE COMPRA */
- 
+ .BOTAOzinho-comprar{
+  padding: 15px 0; 
+    width: 100%; 
+    max-width: 700px;
+    
+    background-color: #e95c28;
+    border: 1px solid #e95c28;     
+    border-radius: 20px;
+ }
 
 #BOTAOzinho-tradicional{
     padding: 0px 0; 
@@ -1185,9 +1247,7 @@ margin-top: -10px;
     background-color: #e95c28;
     border: 1px solid #e95c28;     
     border-radius: 20px;
-   
-
-}
+  }
 
 #btn-comprar{
   display: flex;
@@ -1196,10 +1256,24 @@ margin-top: -10px;
 }
 .description{
   max-width: 700px;
-  margin-left: 25px;
+  margin-left: 0px;
   
 }
+#pro2mudas{
+  margin-left: -300px;
+}
 
+#seniormudas{
+   margin-left: -300px;
+}
+
+#imagemlite{
+  margin-left: -300px;
+}
+
+#descriptionoutros{
+  margin-left: 25px;
+}
 
 .textocomprar{
   font-size: 16px;
@@ -1209,7 +1283,17 @@ margin-top: -10px;
 }
 
 .textocomprar a{
-  text-decoration: none;
+  text-decoration: none !important;
+
+}
+
+#btn-comprar, 
+#btn-comprar *, 
+.textocomprar {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
 }
 
   .apresentaçãodoproduto {
@@ -1218,8 +1302,8 @@ margin-top: -10px;
   }
 
   .botaozao-COMPRAR {
-   margin-left: -300px;
-    margin-top: 20px;
+   margin-left: -280px;
+    margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1325,14 +1409,43 @@ margin-top: -10px;
 
   /* BOTÃO PRINCIPAL DE PAGAMENTO */
   .botao-pagamento {
-    padding: 14px 0; /* Troca o padding fixo lateral por 0 */
-    width: 100%; /* Força o botão a se ajustar perfeitamente à largura da tela */
+ background-color: #e95c28;
+    border-color: #e95c28;
+    color: white;
+    
+    /* Modificado: padding fixo lateral de 340px quebraria em 768px */
+    width: 100%; 
+    padding: 14px 0; 
+    
+    border-radius: 20px;
+    font-weight: bold;
     font-size: 16px;
-    white-space: normal; /* Permite quebrar linha caso o texto seja muito longo */
+    white-space: nowrap;
+    margin-bottom: 20px;
     text-align: center;
-    display: block;
-    box-sizing: border-box;
+    cursor: pointer;
   }
+
+.botao-seniorpix{
+  background-color: #e95c28;
+  border-color: #e95c28;
+  padding: 8px 0px; /* Trocado de padding fixo lateral de 340px para 100% de largura */
+  
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  
+  margin-bottom: 15px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+   
+padding: -0px 0px;
+  justify-content: center;
+} 
 
   /* PÁGINA DE TERMOS E CONDIÇÕES */
   .centralizar-termos {
@@ -1340,6 +1453,20 @@ margin-top: -10px;
     margin-bottom: 20px;
     padding: 0 15px;
   }
+
+  .mudartermo{
+  margin-left: -2px;
+}
+
+.mudartermo2{
+  margin-left: -2px;
+}
+
+.mudartermo3{
+  margin-left: 5px;
+}
+
+  
 
   .textao-termo {
     font-size: 1.8rem; /* Reduz o título gigante de 2.8rem */

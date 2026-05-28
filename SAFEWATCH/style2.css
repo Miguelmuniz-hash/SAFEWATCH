@@ -7,12 +7,17 @@
   }
 
   .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border-bottom: 2px solid #000000;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  padding: 5px 12px; /* Reduzido o padding interno */
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px; /* Reduzido a margem inferior */
+ 
+
+     justify-content: space-around;
+   background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border: white; 
   }
 
   .gap {
@@ -36,7 +41,7 @@
 
   nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 14px;
   }
@@ -413,7 +418,7 @@ margin-top: 20px;
     gap: 20px;
     place-items: center;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .card-LOJA {
@@ -423,6 +428,12 @@ margin-top: 20px;
     text-align: center;
     gap: 10px;
     margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Cantos um pouco mais sutis */
+   height: 420px;
+    width:420px;
   }
 
   .avaliacao {
@@ -1008,7 +1019,7 @@ label {
   .section-SOBRE{
  max-width: 800px;
  margin-left: 100px;
- 
+ margin-top: -40px;
 }
 .section-SOBRE2{
    max-width: 800px;
@@ -1019,7 +1030,7 @@ label {
   align-items: center;      /* Centraliza tudo horizontalmente */
   text-align: center;       /* Garante que o texto quebre alinhado pelo meio */
   
-   
+    margin-top: -25px;
 } 
 .section-SOBRE3{
   max-width: 800px;
@@ -1029,11 +1040,12 @@ label {
   align-items: center;      /* Centraliza tudo horizontalmente */
   text-align: center;       /* Garante que o texto quebre alinhado pelo meio */
   position: relative;
-  
+   margin-top: -70px;
 }
 .section-SOBRE4{
  max-width: 800px;
   margin-left: 100px;
+   margin-top: -20px;
 }
 
   .container-SOBRE h1 {
@@ -1364,6 +1376,20 @@ max-width: 1000px;
   /* BOTÕES DE COMPRA */
  
 
+ .BOTAOzinho-comprar{
+  padding: 15px 0; 
+    width: 100%; 
+    max-width: 700px;
+    
+    background-color: #e95c28;
+    border: 1px solid #e95c28;     
+    border-radius: 20px;
+ }
+
+ .BOTAOzinho-comprar p{
+  text-decoration: none;
+ }
+
 #BOTAOzinho-tradicional{
     padding: 0px 0; 
     width: 100%; 
@@ -1372,9 +1398,11 @@ max-width: 1000px;
     background-color: #e95c28;
     border: 1px solid #e95c28;     
     border-radius: 20px;
-   
+  }
 
-}
+  #BOTAOzinho-tradicional p{
+    text-decoration: none;
+  }
 
 #btn-comprar{
   display: flex;
@@ -1382,6 +1410,18 @@ max-width: 1000px;
   justify-content: center;
 }
 
+#btn-comprar, 
+#btn-comprar *, 
+.textocomprar {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
+
+#btn-comprar p{
+  text-decoration: none;
+}
 
 .textocomprar{
   font-size: 16px;
@@ -1433,6 +1473,27 @@ max-width: 1000px;
     padding-left: 140px; /* Espaço controlado para a imagem absoluta */
   }
 
+
+  .botao-seniorpix{
+  background-color: #e95c28;
+  border-color: #e95c28;
+  padding: 8px 0px; /* Trocado de padding fixo lateral de 340px para 100% de largura */
+  
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  
+  margin-bottom: 15px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+   
+padding: -0px 0px;
+  justify-content: center;
+} 
   .valores-relogio {
     text-align: right;
     margin-top: 10px;
@@ -1998,6 +2059,85 @@ margin-right: 100px;
 #imagemlite{
   margin-top: 20px;
   
+}
+
+
+/* Termos e Condições */
+.centralizar-termos {
+  flex-direction: column;
+  place-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px; 
+
+justify-content: center;
+place-items: center;
+   display: grid; /* Obrigatório para o grid funcionar */
+  grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
+  gap: 10px;
+  max-width: 1000px;
+  margin-left: 5px;
+}
+
+.mudartermo{
+  margin-left: 10px;
+}
+
+.mudartermo2{
+  margin-left: 10px;
+}
+
+.mudartermo3{
+  margin-left: 10px;
+}
+
+.termo-item:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
+.icones-TERMOS {
+    display: flex;
+    margin-top: 20px;
+    width: 38px;         
+    height: 38px;        
+}
+
+.termo-item {
+    background-color: #ffffff;
+    border: 1px solid #eef2f5;
+    border-radius: 8px; 
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
+    margin-top: -15px;
+}
+
+.textao-termo {
+  color: #1a2a5a; 
+  font-size: 1.5rem; /* Reduzido de 2.8rem */
+  margin-bottom: 20px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo-TERMO h2 {
+    color: #1a2a5a; 
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.conteudo-TERMO p {
+    color: #555555; 
+    font-size: 13px;
+    max-width: 500px; /* Ajustado para caixas menores */
 }
 
 }

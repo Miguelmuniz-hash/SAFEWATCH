@@ -4,15 +4,19 @@
         font-family: Arial, sans-serif; 
     } 
 
-    .navbar { 
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; /* Mudado para aproveitar melhor o espaço lateral */
-        padding: 7px 15px; 
-        border-bottom: 2px solid #000000; 
-        margin-bottom: 20px;
+      .navbar {
+  display: flex;
+  align-items: center;
 
-    } 
+  padding: 5px 12px; /* Reduzido o padding interno */
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px; /* Reduzido a margem inferior */
+ 
+
+     justify-content: space-around;
+   background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border: white; 
+  }
 
     .gap { 
         gap: 40px; /* Reduzido de 100px para não estourar a barra */
@@ -37,7 +41,7 @@
 
     nav a { 
         text-decoration: none; 
-        color: black; 
+        color: white; 
         font-weight: bold; 
         font-size: 14px; 
 
@@ -941,13 +945,15 @@ font-size: 22px;
    
      border-radius: 40px 10px 40px 80px; 
     overflow: hidden;
+
+    margin-top: 140px;
 }
 
 
 
 /* --- PRODUTO --- */
 .section-SOBRE2{
-  margin-top: -60px;
+  margin-top: -132px;
 }
 
 .watch-safewatch{
@@ -962,12 +968,13 @@ font-size: 22px;
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    margin-top: -165px;
-    margin-left: 980px;
+    margin-top: -220px;
+    margin-left: 985px;
 
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
 
+    position: absolute;
 }
 
 .margin-popizinho{
@@ -984,7 +991,7 @@ font-size: 22px;
 
 /* --- EQUIPE --- */
 .section-SOBRE3{
-  margin-top: -55px; /* Reajustado recuo do bloco */
+  margin-top: 138px; /* Reajustado recuo do bloco */
   
 }
 
@@ -1022,7 +1029,7 @@ font-size: 22px;
 /* --- COMPROMISSO --- */
 
 .section-SOBRE4{
-  margin-top: -50px;
+  margin-top: 30px;
 }
 
 .benefit-row {
@@ -1602,44 +1609,84 @@ padding: 0px 10px;
     
 
 
-    /* --- TERMOS E CONDIÇÕES --- */ 
-    .centralizar-termos { 
-        margin-top: 35px; 
-        margin-bottom: 20px; 
-    } 
+ /* Termos e Condições */
+.centralizar-termos {
+  flex-direction: column;
+  place-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px; 
 
-    .textao-termo { 
-        color: #1a2a5a; 
-        font-size: 1.8rem; /* Reduzido drasticamente de 2.8rem */
-        margin-bottom: 20px; 
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } 
+justify-content: center;
+place-items: center;
+   display: grid; /* Obrigatório para o grid funcionar */
+  grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
+  gap: 10px;
+  max-width: 1000px;
+  margin-left: 170px;
+}
 
-    .termo-item { 
-        padding: 15px; /* Reduzido de 24px */
-        gap: 15px; 
-        margin-top: 0px; /* Removido -20px */
-        max-width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-    } 
+.mudartermo{
+  margin-left: -45px;
+}
 
-    .icones-TERMOS { 
-        margin-top: 0px; /* Removido empurrão para baixo */
-        width: 35px; 
-        height: 35px; 
-    } 
+.mudartermo2{
+  margin-left: -50px;
+}
 
-    .conteudo-TERMO h2 { 
-        font-size: 16px; 
-        margin-bottom: 6px; 
-    } 
+.mudartermo3{
+  margin-left: -30px;
+}
 
-    .conteudo-TERMO p { 
-        font-size: 13px; 
-        max-width: 100%; /* Permite o texto fluir na caixa */
-    } 
+.termo-item:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
+.icones-TERMOS {
+    display: flex;
+    margin-top: 20px;
+    width: 38px;         
+    height: 38px;        
+}
+
+.termo-item {
+    background-color: #ffffff;
+    border: 1px solid #eef2f5;
+    border-radius: 8px; 
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
+    margin-top: -15px;
+}
+
+.textao-termo {
+  color: #1a2a5a; 
+  font-size: 1.5rem; /* Reduzido de 2.8rem */
+  margin-bottom: 20px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo-TERMO h2 {
+    color: #1a2a5a; 
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.conteudo-TERMO p {
+    color: #555555; 
+    font-size: 13px;
+    max-width: 500px; /* Ajustado para caixas menores */
+}
+
+
+
 }
