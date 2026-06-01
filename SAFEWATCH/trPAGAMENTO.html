@@ -4,18 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="pagamento.js"></script>
+
     <link rel="stylesheet" href="style1.css">
+   
+
+    <script src="finalizar.js"></script>
+     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="escola.css">
 </head>
 <body>
 
+    <header class="navbar">
+        <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png"
+            alt="LOGO" width="160px" />
+        <nav class="gap">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="recursos.html">Recursos</a>
+           
+            <a href="lojas.html">Loja</a>
+        </nav>
 
+        <div class="junto">
+
+        <div class="botoes">
+            <a href="login.html">Entrar</a>
+
+        </div>
+         <div class="botoes1">
+            <a href="cadastrar.html">Cadastre-se</a>
+        </div>
+      </div>
+      
+    </header>
+
+     <header>
+        <div class="linkParaIrNaLoja">
+ <div class="botaozao-COMPRAR">
+ <a href="lojas.html">Voltar a Loja></a>
+  </div>
+  </div>
+</header>
+
+<div id="organizarosbtoes" >
     <button class="method" id="pixscript"   onclick="trocarformaPIX()">PIX</button>
     <button class="method" id="cartaoscript"  onclick="trocarformaCARTAO()">CARTÃO</button>
     <button class="method" id="boletoscript"  onclick="trocarformaBOLETO()">BOLETO</button>
+</div>
 
 
-    <section id="tela-pix" style="display: block;"> 
+    <div class="PAGAMENTO">
+        <form id="checkout-form">
+
+    <section id="telapix" style="display: block;"> 
 
 
         
@@ -33,15 +77,19 @@
     </div> 
     </div> 
     </div> 
+ </form>
 
     <div> 
-        <a href="index.html"><button class="botao-pagamento" onclick="Finalizar()">Finalizar compra</button></a> 
+        <button class="botao-pagamento"   onclick="Finalizar()">Finalizar compra</button>
+    </div> 
     </div> 
 
     </section> 
 
-    
-    <section id="tela-cartao" style="display: none;"> 
+    <div class="PAGAMENTO">
+        <form id="checkout-form">
+    <section id="telacartao" style="display: none;"> 
+        
     <div class="card-area"> 
         <div class="field"> 
     <label>Número do cartão</label> 
@@ -84,18 +132,21 @@
         </select> 
         </div> 
     </div> 
+            </form>
+<div>
     
     <div> 
     <div id="pagar-cartao"> 
-    <a href="index.html"><button class="botao-pagamento" onclick="Finalizar()">Finalizar compra</button></a> 
+    <button class="botao-pagamento" id="botaocartaozao"   onclick="Finalizar()">Finalizar compra</button>
         </div> 
     </div> 
     </section> 
 
+<div class="PAGAMENTO">
+        <form id="checkout-form">
 
-
-        <section id="tela-boleto" style="display: none;"> 
-    <div class="boleto-area"> 
+        <section id="telaboleto" style="display: none;"> 
+    <div class="boleto-area" id="boletao-areass"> 
     <div class="boleto-info"> 
     <div class="boleto-texto"> 
     <p>O boleto será gerado após a finalização do pedido.</p> 
@@ -105,14 +156,66 @@
     <li>Aprovação em até 48 horas.</li> 
     </ul> 
     </div> 
-    </div> 
+    </div>
+     </form> 
     <div> 
     <div id="pagar-boleto"> 
-        <a href="index.html"><button class="botao-pagamento" onclick="Finalizar()">Finalizar compra</button></a> 
+        <button class="botao-pagamento" id="cartaoboletao" onclick="Finalizar()">Finalizar compra</button>
         </div> 
     </div> 
     </section>
+ </div>
+ </div>
+        <script src="pagamento.js"></script>
 
         
+
+        <footer class="footer">
+  <div class="footer-conteudo">
+
+    <!-- LOGO + TEXTO -->
+    <div class="coluna1">
+      <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png" alt="image" width="200px"/>
+      <p>Tecnologia que cuida de quem você ama.</p>
+    </div>
+
+      <!-- INSTITUCIONAL -->
+    <div class="coluna2">
+      <h3>Institucional</h3>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="institucional.html">Institucional</a>
+    </div>
+
+    <!-- SUPORTE -->
+    <div class="coluna3">
+      <h3>Termos</h3>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="termos.html">Termos e Condições</a>
+    </div>
+
+    <!-- REDES -->
+   <div class="coluna4">
+      <h3 class="coluna4-texto">Siga-nos</h3>
+      <div class="redes">
+        <a href="https://www.instagram.com/safewatch_ofc?igsh=dDlpYnZ0d2ljeWkw&utm_source=qr"><span><img src="https://www.image2url.com/r2/default/images/1778879764956-5d484417-3c3e-47a1-9b0a-16b6a40fd707.png" alt="image" width="30px"/></span></a>
+        
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LINHA -->
+  <div class="linha"></div>
+
+  <!-- PARTE DE BAIXO -->
+  <div class="footer-baixo">
+    <p>© 2026 SafeWatch. Todos os direitos reservados.</p>
+
+  
+  </div>
+  
+</footer>
+
+         
     </body>
     </html>

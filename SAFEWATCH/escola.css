@@ -1360,7 +1360,7 @@ padding: 0px 10px;
 
     /* --- TELA DE PAGAMENTO PRINCIPAL --- */
     .PAGAMENTO { 
-        max-width: 90%; /* Ajustado de 800px fixos para dar flexibilidade lateral */
+        max-width: 700px; /* Ajustado de 800px fixos para dar flexibilidade lateral */
         margin: 0 auto; 
         padding: 20px; /* Reduzido de 30px */
     } 
@@ -1450,6 +1450,7 @@ padding: 0px 10px;
        
         box-sizing: border-box; /* Garante que as bordas contem na largura total */
     } 
+
 
 
 /*aba de carrinho*/
@@ -1609,7 +1610,28 @@ padding: 0px 10px;
     
 
 
+
+
  /* Termos e Condições */
+
+.banner-PIVACIDADE{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
+  background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border-radius: 30px;
+  margin: 35px; 
+
+  
+   width: 94.5%;
+    height: 220px;
+
+
+    
+}
+
 .centralizar-termos {
   flex-direction: column;
   place-items: center;

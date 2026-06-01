@@ -1374,11 +1374,22 @@ max-width: 1000px;
   }
 
   .PAGAMENTO {
-    max-width: 100%;
-    margin: 0 10px;
+    
+   
     padding: 20px 15px; /* Reduz espaçamentos internos do card global */
     box-sizing: border-box;
-     border-radius: 8px;
+     
+
+       max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+
+    margin: 0 auto;
+    background: #fff;
+  
+    border-radius: 8px;
+
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
 
   .section-PAGAMENTO {
@@ -1509,6 +1520,9 @@ transition-timing-function: ease-in-out;
     border-radius: 8px;
     align-items: center;
     justify-content: space-between;
+
+     margin-bottom: 25px;
+    margin-top: 4px;
   }
 
   .qr-box {
@@ -1554,6 +1568,12 @@ transition-timing-function: ease-in-out;
     position: relative;
   }
 
+  .card-area{
+  margin-top: -25px;
+  margin-bottom: 40px;
+}
+
+
   .help-icon {
     margin-left: 6px;
     width: 16px;
@@ -1570,12 +1590,49 @@ transition-timing-function: ease-in-out;
     display: none;
   }
 
+
+#organizarosbtoes{
+ 
+display: flex;
+    gap: 12px;
+     margin-left: auto;
+    margin-right: auto;
+    max-width: 710px;
+    margin-bottom: -10px;
+    box-sizing: border-box;
+
+margin-top: 40px;
+     
+    padding: 12px 6px;
+     color: #0f2942;
+     font-weight: bold;
+
+    justify-content: center;
+    align-items: center ;
+    
+  }
+
+  
+
+#botaocartaozao{
+  margin-bottom: 40px;
+  
+}
+
+#cartaoboletao{
+  margin-bottom: 40px;
+  
+}
+
   /* Boleto */
   .boleto-area {
     border: 1px solid var(--border-color);
     padding: 15px;
     border-radius: 8px;
     background-color: #fafafa;
+
+      margin-top: -60px;
+  margin-bottom: 5px;
   }
 
   .boleto-info p {
@@ -1649,6 +1706,10 @@ transition-timing-function: ease-in-out;
     max-width: 100%;
   }
 
+
+  #cartaoboletao{
+    margin-bottom: 70px;
+  }
 
  .carrinho-aba-lateral {
       position: fixed;
@@ -1850,4 +1911,44 @@ transition-timing-function: ease-in-out;
     font-size: 13px;
     max-width: 100%;
   }
+
+
+  .banner-PIVACIDADE{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+ text-align: center;
+ padding: 20px 15px;
+  
+  background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border-radius: 30px;
+   margin: 15px 0;
+
+  
+ width: 88%;
+    margin-left: 15px;
+}
+
+.banner-PIVACIDADE img{
+  
+    margin-left: 85px;
+}
+
+/* TEXTO */
+.textoPRIVACIDADE{
+  color: white;
+  
+}
+
+.textoPRIVACIDADE h1 {
+  font-size: 30px; 
+}
+
+.textoPRIVACIDADE p {
+  margin: 12px 0;
+  font-size: 17px;
+  
+}
+
 }

@@ -1,52 +1,36 @@
-let pix = document.getElementById("pixscript");
-let cartao = document.getElementById("cartaoscript");
-let boleto = document.getElementById("boletoscript");
+let pix = document.getElementById("telapix"); 
+let cartao = document.getElementById("telacartao");
+let boleto = document.getElementById("telaboleto");
 
+let opcaoSelecionada = 'pix';
 
-telaPix.style.display = 'block';
-    telaCartao.style.display = 'none';
-   
-
-let opcaoSelecionada = 'pix'
-
-function trocarformaPIX(){
-
-opcaoSelecionada = 'pix';
-
-    if(opcaoSelecionada === 'pix'){
- pixscript.style.display = 'block';     
-    cartaoscript.style.display = 'none';    
-    boletoscript.style.display = 'none';   
-
-    
+function trocarformaPIX() {
+    opcaoSelecionada = 'pix';
+    if (opcaoSelecionada === 'pix') {
+        pix.style.display = 'block';
+        cartao.style.display = 'none';
+        boleto.style.display = 'none';  
     }
 }
 
-function trocarformaCARTAO(){
-
-opcaoSelecionada = 'cartao';
-
-    if(opcaoSelecionada === 'cartao'){
- pixscript.style.display = 'none';     
-   cartaoscript.style.display = 'block';    
-    boletoscript.style.display = 'none';  
-  
-
+function trocarformaCARTAO() {
+    opcaoSelecionada = 'cartao';
+    if (opcaoSelecionada === 'cartao') {
+        pix.style.display = 'none';     
+        cartao.style.display = 'block';    
+        boleto.style.display = 'none';  
     }
 }
 
-function trocarformaBOLETO(){
-
-opcaoSelecionada = 'boleto';
-
-    if(opcaoSelecionada === 'boleto'){
- pixscript.display = 'none';     
-   cartaoscript.style.display = 'none';    
-    boletoscript.style.display = 'block';  
-    
-     
+function trocarformaBOLETO() {
+    opcaoSelecionada = 'boleto';
+    if (opcaoSelecionada === 'boleto') {
+        pix.style.display = 'none';   
+        cartao.style.display = 'none';    
+        boleto.style.display = 'block';  
     }
 }
+
 function Finalizar() {
-  alert("Compra finalizada com sucesso!");
+    alert("Compra finalizada com sucesso!");
 }

@@ -225,6 +225,12 @@ transition-timing-function: ease-in-out;
   display: flex;
   justify-content: space-around;
   padding: 15px;
+  align-items: center;
+   
+}
+
+#itemarrumar{
+  margin-top: -4px;
 }
 
 #problemacoração{
@@ -241,9 +247,19 @@ transition-timing-function: ease-in-out;
   display: flex;
   align-items: center;
   gap: 15px;
-  border-radius: 15px;
+  
+    
+    justify-content: center; 
+    text-align: center;    
 
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+     background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Cantos um pouco mais sutis */
+   height: 140px;
+    width:260px;
+
+  
 }
 
 .itemB:hover{
@@ -1237,7 +1253,7 @@ transition-timing-function: ease-in-out;
 .container-SOBRE {
     display: flex;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -100px; 
     margin-left: -85px;
 }
 
@@ -1328,7 +1344,7 @@ transition-timing-function: ease-in-out;
 
 /* --- PRODUTO --- */
 .section-SOBRE2{
-  margin-top: -200px;
+  margin-top: -245px; 
 }
 
 .watch-safewatch{
@@ -1826,6 +1842,13 @@ transition-timing-function: ease-in-out;
 
 
 
+
+
+
+  
+  
+
+
 /*Pagamento*/
 .box-pagamentao{
     display: flex;
@@ -1879,6 +1902,14 @@ transition-timing-function: ease-in-out;
 
 .linkParaIrNaLoja{
   margin-top: 15px;
+position: absolute;
+margin-left: 80px;
+}
+
+.linkParaIrNaLoja a{
+  
+text-decoration: none;
+font-weight: bold;
 }
 
 :root {
@@ -1895,6 +1926,8 @@ transition-timing-function: ease-in-out;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+    
 }
 
 .section-PAGAMENTO {
@@ -2007,6 +2040,9 @@ input, select {
     border-radius: 8px;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 25px;
+    margin-top: 4px;
 }
 
 .qr-box {
@@ -2030,11 +2066,50 @@ input, select {
     width: 85%; /* Um pouco mais de espaço para preenchimento */
 }
 
+#organizarosbtoes{
+ 
+display: flex;
+    gap: 12px;
+     margin-left: auto;
+    margin-right: auto;
+    max-width: 710px;
+    margin-bottom: -10px;
+    box-sizing: border-box;
+
+margin-top: 100px;
+     
+    padding: 12px 6px;
+     color: #0f2942;
+     font-weight: bold;
+
+    justify-content: center;
+    align-items: center ;
+    
+  }
+
+  
+
+#botaocartaozao{
+  margin-bottom: 40px;
+}
+
+#cartaoboletao{
+  margin-bottom: 40px;
+  
+}
+
 .card-logos {
     right: 8px;
     display: flex;
     gap: 6px;
     object-fit: contain;
+
+   
+}
+
+.card-area{
+  margin-top: -60px;
+  margin-bottom: 25px;
 }
 
 /* Campo CVV com ícone de ajuda */
@@ -2070,6 +2145,16 @@ input, select {
     padding: 15px;
     border-radius: 8px;
     background-color: #fafafa;
+
+   
+  margin-top: -70px;
+  margin-bottom: 25px;
+
+}
+
+#telaboleto{
+  width: 695.5px;
+  margin-left: -23px;
 }
 
 .boleto-info p {
@@ -2098,7 +2183,7 @@ input, select {
   font-weight: bold;
   font-size: 16px;
   white-space: nowrap;
-  margin-bottom: 15px;
+  margin-bottom: -25px;
   color: white;
 } 
 
@@ -2271,12 +2356,13 @@ transition-timing-function: ease-in-out;
   margin-bottom: 40px; 
 
 justify-content: center;
-place-items: center;
+
    display: grid; /* Obrigatório para o grid funcionar */
   grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
   gap: 10px;
   max-width: 1000px;
-  margin-left: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mudartermo{
@@ -2317,6 +2403,14 @@ transition-timing-function: ease-in-out;
     margin-top: -15px;
 }
 
+.termo-item:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
 .textao-termo {
   color: #1a2a5a; 
   font-size: 1.5rem; /* Reduzido de 2.8rem */
@@ -2342,6 +2436,102 @@ transition-timing-function: ease-in-out;
 }
 
 
+/*banner*/
+/* CAIXA PRINCIPAL */
+.banner {
+  margin: 30px; /* Margem ajustada */
+}
+
+#bodyPRIVACIDADE {
+    background: linear-gradient(135deg, rgba(4, 42, 92, 0.08) 0%, #ffffff 100%);
+    background-attachment: fixed; 
+}
+
+
+.banner-PIVACIDADE{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
+  background: linear-gradient(to right, #B14707 10%, #00234A 50%);
+  border-radius: 30px;
+  margin: 35px; 
+
+  
+   width: 96%;
+    height: 220px;
+
+
+    
+}
+
+  .banner-PIVACIDADE:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+.banner-PIVACIDADE img{
+  display: flex;
+  align-items: center;
+}
+
+/* TEXTO */
+.textoPRIVACIDADE{
+  color: white;
+  max-width: 420px;
+}
+
+.textoPRIVACIDADE h1 {
+  font-size: 30px; 
+}
+
+.textoPRIVACIDADE p {
+  margin: 12px 0;
+  font-size: 17px; 
+}
+
+/* BOTÕES */
+.botao {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-comprar {
+  background-color: #e95c28;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-comprar:hover {
+font-size: 17px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+.btn-saiba:hover {
+  font-size: 18px;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+
+.btn-saiba {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 
 }
