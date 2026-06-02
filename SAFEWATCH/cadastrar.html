@@ -1,135 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style3.css">
-    <link rel="stylesheet" href="style4.css">
-    <link rel="stylesheet" href="escola.css">
-</head>
-<body class="bodyCADASTRO">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="style2.css">
+      <link rel="stylesheet" href="style3.css">
+      <link rel="stylesheet" href="style4.css">
+      <link rel="stylesheet" href="escola.css">
 
-<header class="navbar">
-        <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png"
-            alt="LOGO" width="160px" />
-        <nav class="gap">
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="recursos.html">Recursos</a>
-           
-            <a href="lojas.html">Loja</a>
-        </nav>
 
-        <div class="junto">
+      <script src="cadastro.js"></script>
+  </head>
+  <body class="bodyCADASTRO">
 
-        <div class="botoes">
-            <a href="login.html">Entrar</a>
+  <header class="navbar">
+          <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png"
+              alt="LOGO" width="160px" />
+          <nav class="gap">
+              <a href="index.html">Início</a>
+              <a href="sobre.html">Sobre</a>
+              <a href="recursos.html">Recursos</a>
+            
+              <a href="lojas.html">Loja</a>
+          </nav>
 
+          <div class="junto">
+
+          <div class="botoes">
+              <a href="login.html">Entrar</a>
+
+          </div>
+          <div class="botoes1">
+              <a href="cadastrar.html">Cadastre-se</a>
+          </div>
         </div>
-         <div class="botoes1">
-            <a href="cadastrar.html">Cadastre-se</a>
-        </div>
+        
+      </header>
+
+
+  <main class="Cadastro-container">
+      <div class="Cadastro-card">
+              
+      <div class="logoLOGIN">
+    <img src="https://image2url.com/r2/default/images/1775746341018-67b4faaa-e194-42ee-8e69-8cd18ff8f50a.jpeg" alt="image" width="250px"/>
+      </div>
+    
+      <div class="textinhoCADASTRO">
+      <h2>Criar conta</h2>
+      </div>
+      <p>Acesse a sua conta para acompanhar quem você ama com segurança.</p>
+
+  <div class="cadastrarCARD">
+
+    <form class="cardCADASTRO">
+
+      <label>E-mail</label>
+      <input type="email"  id="cadastro-email"  class="input-group" placeholder="Digite seu e-mail">
+
+      <label>Senha</label>
+      <input type="password" id="cadastro-senha"  class="input-group" placeholder="Digite sua senha">
+
+  <div class="termos-CADASTRO">
+      <input type="checkbox" id="termos" class="checkbox-custom">
+      <label for="termos">Aceito os <a href="termos.html" class="link-termos">Termos e Condições</a></label>
+
+  </div>
+
+      <button class="botaoCADASTRO" onclick="salvarCadastro(event)"> <a href="entrar.html" >Cadastrar</a></button>
+
+  <div>
+      <p class="textoCADASTRARSE">Já tem uma conta? <a href="login.html" class="entreaqui">Entre aqui</a></p>
+  </div>
+
+    </form> 
+  </div> 
+  </main>
+
+  <footer class="footer">
+    <div class="footer-conteudo">
+
+      <!-- LOGO + TEXTO -->
+      <div class="coluna1">
+        <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png" alt="image" width="200px"/>
+        <p>Tecnologia que cuida de quem você ama.</p>
+      </div>
+
+    <!-- INSTITUCIONAL -->
+      <div class="coluna2">
+        <h3>Institucional</h3>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="institucional.html">Institucional</a>
+      </div>
+
+      <!-- SUPORTE -->
+      <div class="coluna3">
+        <h3>Termos</h3>
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos e Condições</a>
       </div>
       
-    </header>
+      <!-- REDES -->
+    <div class="coluna4">
+        <h3 class="coluna4-texto">Siga-nos</h3>
+        <div class="redes">
+          <a href="https://www.instagram.com/safewatch_ofc?igsh=dDlpYnZ0d2ljeWkw&utm_source=qr"><span><img src="https://www.image2url.com/r2/default/images/1778879764956-5d484417-3c3e-47a1-9b0a-16b6a40fd707.png" alt="image" width="30px"/></span></a>
+          
+        </div>
+      </div>
 
-
- <main class="Cadastro-container">
-    <div class="Cadastro-card">
-            
-    <div class="logoLOGIN">
-   <img src="https://image2url.com/r2/default/images/1775746341018-67b4faaa-e194-42ee-8e69-8cd18ff8f50a.jpeg" alt="image" width="250px"/>
-    </div>
-   
-    <div class="textinhoCADASTRO">
-    <h2>Criar conta</h2>
-    </div>
-    <p>Acesse a sua conta para acompanhar quem você ama com segurança.</p>
-
-<div class="cadastrarCARD">
-
-  <form class="cardCADASTRO">
-
-    <label>E-mail</label>
-    <input type="email" class="input-group" placeholder="Digite seu e-mail">
-
-    <label>Senha</label>
-    <input type="password"  class="input-group" placeholder="Digite sua senha">
-
-<div class="termos-CADASTRO">
-    <input type="checkbox" id="termos" class="checkbox-custom">
-    <label for="termos">Aceito os <a href="termos.html" class="link-termos">Termos e Condições</a></label>
-
-</div>
-
-    <button class="botaoCADASTRO"><a href="entrar.html">Cadastrar</a></button>
-
-    <div class="divider1">ou</div>
- <div class="inputgoogle">
-  <button type="button" class="BOTAO-google">
-    <img src="https://www.image2url.com/r2/default/images/1776778791150-9727b0b3-743b-47ab-ae32-a1d94b3cb223.png" alt="image" width="20px"/>
-    Continuar com o Google
-  </button>
-</div>
-
-<div>
-    <p class="textoCADASTRARSE">Já tem uma conta? <a href="login.html" class="entreaqui">Entre aqui</a></p>
-</div>
-
-  </form> 
-</div> 
-</main>
-
-<footer class="footer">
-  <div class="footer-conteudo">
-
-    <!-- LOGO + TEXTO -->
-    <div class="coluna1">
-      <img src="https://image2url.com/r2/default/images/1775949161715-22f4f0b4-21f8-47bb-b22a-8775adb86685.png" alt="image" width="200px"/>
-      <p>Tecnologia que cuida de quem você ama.</p>
     </div>
 
-  <!-- INSTITUCIONAL -->
-    <div class="coluna2">
-      <h3>Institucional</h3>
-      <a href="sobre.html">Sobre nós</a>
-      <a href="institucional.html">Institucional</a>
-    </div>
+    <!-- LINHA -->
+    <div class="linha"></div>
 
-    <!-- SUPORTE -->
-    <div class="coluna3">
-      <h3>Termos</h3>
-      <a href="privacidade.html">Privacidade</a>
-      <a href="termos.html">Termos e Condições</a>
+    <!-- PARTE DE BAIXO -->
+    <div class="footer-baixo">
+      <p>© 2026 SafeWatch. Todos os direitos reservados.</p>
+
+    
     </div>
     
-    <!-- REDES -->
-   <div class="coluna4">
-      <h3 class="coluna4-texto">Siga-nos</h3>
-      <div class="redes">
-        <a href="https://www.instagram.com/safewatch_ofc?igsh=dDlpYnZ0d2ljeWkw&utm_source=qr"><span><img src="https://www.image2url.com/r2/default/images/1778879764956-5d484417-3c3e-47a1-9b0a-16b6a40fd707.png" alt="image" width="30px"/></span></a>
-        
-      </div>
-    </div>
-
-  </div>
-
-  <!-- LINHA -->
-  <div class="linha"></div>
-
-  <!-- PARTE DE BAIXO -->
-  <div class="footer-baixo">
-    <p>© 2026 SafeWatch. Todos os direitos reservados.</p>
-
-  
-  </div>
-  
-</footer>
+  </footer>
 
 
-</body>
-</html>
+  </body>
+  </html>

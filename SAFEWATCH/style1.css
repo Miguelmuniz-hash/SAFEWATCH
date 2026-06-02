@@ -4,7 +4,7 @@
 .botao-seniorpix{
   background-color: #e95c28;
   border-color: #e95c28;
-  padding: 12px 0px; /* Trocado de padding fixo lateral de 340px para 100% de largura */
+  padding: 12px 0px; 
   
   border-radius: 20px;
   font-weight: bold;
@@ -41,9 +41,9 @@ body {
   display: flex;
   align-items: center;
 
-  padding: 5px 12px; /* Reduzido o padding interno */
+  padding: 5px 12px; 
   border-bottom: 2px solid #000000;
-  margin-bottom: 20px; /* Reduzido a margem inferior */
+  margin-bottom: 20px; 
  
 
      justify-content: space-around;
@@ -56,7 +56,7 @@ body {
 
 
 .gap{
-    gap: 50px; /* Reduzido pela metade para evitar quebras de linha */
+    gap: 50px; 
     
 }
 .abas {
@@ -71,7 +71,7 @@ body {
 nav {
   display: flex;
   align-items: center;
-  gap: 15px; /* Reduzido o espaçamento dos links */
+  gap: 15px; /
 }
 
 nav a {
@@ -97,7 +97,7 @@ transition-timing-function: ease-in-out;
 .botoes {
   background-color: #f4f4f4;
   background: linear-gradient(to right, #f6edea);
-  padding: 8px 16px; /* Ajuste sutil nos botões */
+  padding: 8px 16px;
   border-radius: 20px;
   font-weight: bold;
   
@@ -151,34 +151,42 @@ transition-timing-function: ease-in-out;
 }
 
 /*banner*/
-/* CAIXA PRINCIPAL */
 .banner {
-  margin: 30px; /* Margem ajustada */
+  margin: 30px; 
 }
 
-/* FUNDO GRADIENTE */
+.banner-conteudo:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
+/* FUNDO do BANNER*/
 .banner-conteudo {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background: linear-gradient(to right, #e95c28, #0a2a66);
   border-radius: 30px;
-  margin: 35px; /* Reduzido para dar mais espaço interno */
+  margin: 35px; 
 }
 
 /* TEXTO */
 .texto {
   color: white;
-  max-width: 420px; /* Diminuído para comportar telas menores */
+  max-width: 420px;
 }
 
 .texto h1 {
-  font-size: 24px; /* Diminuído o título principal */
+  font-size: 24px; 
 }
 
 .texto p {
   margin: 12px 0;
-  font-size: 13px; /* Fonte levemente menor */
+  font-size: 13px; 
 }
 
 /* BOTÕES */
@@ -238,7 +246,7 @@ transition-timing-function: ease-in-out;
 }
 
 .item {
-  max-width: 180px; /* Compactado o tamanho do bloco */
+  max-width: 180px; 
   text-align: left;
   margin-bottom: 5px;
 }
@@ -255,7 +263,7 @@ transition-timing-function: ease-in-out;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
      background: #fff;
     border: 1px solid #ccc;
-    border-radius: 30px; /* Cantos um pouco mais sutis */
+    border-radius: 30px; 
    height: 140px;
     width:260px;
 
@@ -272,7 +280,7 @@ transition-timing-function: ease-in-out;
 
 
 .item img {
-  width: 35px; /* Ícones menores */
+  width: 35px;
   margin-bottom: 8px;
   align-items: center;
   display: flex;
@@ -301,7 +309,7 @@ transition-timing-function: ease-in-out;
   display: flex;
     flex-direction: column;
     
-    margin: 0; /* Remove margens padrões do navegador */
+    margin: 0; 
     box-sizing: border-box;
 
     margin-bottom: auto;
@@ -321,7 +329,7 @@ transition-timing-function: ease-in-out;
 .coluna1 {
   display: flex;
   flex-direction: column;
-  margin-left: 35px; /* Menor recuo à esquerda */
+  margin-left: 35px; 
 }
 
 .coluna1 p{
@@ -574,7 +582,7 @@ transition-timing-function: ease-in-out;
   margin-top: 25px;
   margin-bottom: 25px;
   justify-content: end;
-  margin-right: 150px; /* Ajustado recuo */
+  margin-right: 150px; 
 }
 
 .filtros {
@@ -601,7 +609,7 @@ transition-timing-function: ease-in-out;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   background: #fff;
     border: 1px solid #ccc;
-    border-radius: 30px; /* Cantos um pouco mais sutis */
+    border-radius: 30px; 
    height: 300px;
     width:420px;
 
@@ -658,7 +666,7 @@ transition-timing-function: ease-in-out;
   height: 1px;              
   background-color: #333;   
   opacity: 0.3;             
-  margin: 60px 0; /* Espaço reduzido entre seções */          
+  margin: 60px 0;    
   width: 100%;              
 }
 
@@ -666,7 +674,7 @@ transition-timing-function: ease-in-out;
 .como-funciona {
     display: flex;
     justify-content: space-around;
-    gap: 0px; /* Menor espaço entre os blocos */
+    gap: 0px; 
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -681,7 +689,7 @@ transition-timing-function: ease-in-out;
   border: 1px solid #ccc;
   border-radius: 30px;
   font-family: sans-serif;
-  max-width: 440px; /* Blocos mais estreitos para a tela menor */
+  max-width: 440px; 
 }
 
 .passo1:hover{
@@ -699,7 +707,7 @@ transition-timing-function: ease-in-out;
     left: 10px;
     background-color: #ff6600; 
     color: white;
-    width: 35px; /* Tamanho do círculo ligeiramente menor */
+    width: 35px; 
     height: 35px;
     border-radius: 50%; 
     display: flex;
@@ -724,15 +732,15 @@ transition-timing-function: ease-in-out;
 
 .conteudo-passo-one h3 {
     color: #003366; 
-    font-size: 1rem; /* Reduzido de 1.1rem */
-    margin-bottom: -45px; /* Suavizada a margem negativa antiga */
+    font-size: 1rem; 
+    margin-bottom: -45px; 
 }
 
 .conteudo-passo-one p {
     color: #666;
-    font-size: 0.85rem; /* Ajuste sutil */
-    margin-top: 55px; /* Reduzido proporcionalmente */
-    max-width: 380px; /* Reduzido para caber na largura total menor */
+    font-size: 0.85rem; 
+    margin-top: 55px; 
+    max-width: 380px; 
 }
 
 .conteudo-passo-two img {
@@ -763,7 +771,7 @@ transition-timing-function: ease-in-out;
     max-width: 50%;
     height: auto;
     margin-bottom: 30px;
-    margin-left: 30px; /* Menor recuo para centralizar melhor */
+    margin-left: 30px; 
 }
 
 .conteudo-passo-three h3 {
@@ -790,7 +798,7 @@ transition-timing-function: ease-in-out;
 .subtitulo-funcionamento{
   font-weight: bold;
   color: #ff6a00; 
-  font-size: 15px; /* Reduzido de 17px */
+  font-size: 15px; 
   margin-bottom: 8px;
   margin-top: -30px;
   text-align: center;
@@ -798,7 +806,7 @@ transition-timing-function: ease-in-out;
 
 .texto-funcionamento{
   color: #002d62; 
-  font-size: 24px; /* Reduzido de 30px */
+  font-size: 24px; 
   margin: 0;
   text-align: center;
 }
@@ -818,7 +826,7 @@ transition-timing-function: ease-in-out;
 }
 
 .foto-mulher{
-  margin-left: -150px; /* Reduzido o recuo violento para não sumir da tela */
+  margin-left: -150px; 
 }
 
 .subtitulo-FAG{
@@ -844,7 +852,7 @@ transition-timing-function: ease-in-out;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
-    max-width: 95.8%; /* Estreitado para o layout não vazar nas laterais */
+    max-width: 95.8%; 
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -852,7 +860,7 @@ transition-timing-function: ease-in-out;
 .faq-card {
     background: #fff;
     border: 1px solid #ccc;
-    border-radius: 30px; /* Cantos um pouco mais sutis */
+    border-radius: 30px; 
     padding: 15px;
     display: flex;
     align-items: center;
@@ -907,7 +915,7 @@ transition-timing-function: ease-in-out;
   color: white;
   padding: 10px 15px;
   justify-content: center;
-  max-width: 380px; /* Reduzido para dar espaço aos botões laterais */
+  max-width: 380px; 
   align-items: center;
   position: absolute;
 }
@@ -929,7 +937,7 @@ transition-timing-function: ease-in-out;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-right: -180px; /* Adaptado para telas com menos pixels de largura */
+  margin-right: -180px; 
 }
 
 .BOTAO-comprar:hover {
@@ -948,7 +956,7 @@ transition-timing-function: ease-in-out;
 .stores img{
   object-fit: cover;
   border-radius: 8px;
-  max-height: 35px; /* Forçado teto máximo para os selos das lojas */
+  max-height: 35px; 
 }
 
 /* BOTÕES */
@@ -986,7 +994,7 @@ transition-timing-function: ease-in-out;
     background-color: #eff5fc; 
     margin: 0;
     
-    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+    flex-direction: column; 
    justify-content: center;
   
 }
@@ -995,14 +1003,14 @@ transition-timing-function: ease-in-out;
 
 margin-top: -20px;
 
-    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    flex-grow: 1; 
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;     
     padding: 40px 0;
 }
 
-/* BOX BRANCA (Tamanho fixo e fechada) */
+/* BOX BRANCA*/
 .login-card {
     background-color: white;
     width: 400px;
@@ -1103,7 +1111,7 @@ transition-timing-function: ease-in-out;
     background-color: #eff5fc; 
     margin: 0;
     
-    flex-direction: column; /* Isso faz um ficar embaixo do outro */
+    flex-direction: column; 
    justify-content: center;
   
 }
@@ -1112,10 +1120,10 @@ transition-timing-function: ease-in-out;
 
 margin-top: -20px;
 
-    flex-grow: 1; /* Ocupa todo o espaço entre header e footer */
+    flex-grow: 1; 
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;    
     padding: 40px 0;
 }
 
@@ -1200,7 +1208,12 @@ transition-timing-function: ease-in-out;
      margin-bottom: 25px;
 }
 
+.link-termos{
+color: #007bff;
+}
+
 .termos-CADASTRO{
+  
   text-align: left;
   font-size: 14px;
   display: flex;
@@ -1210,6 +1223,7 @@ transition-timing-function: ease-in-out;
 }
 
 .loginTEXTINHO:hover{
+  
 font-size: 17px;
 transition-property: all;
 transition-duration: 0.2s;
@@ -1344,14 +1358,14 @@ transition-timing-function: ease-in-out;
 
 /* --- PRODUTO --- */
 .section-SOBRE2{
-  margin-top: -245px; 
+  margin-top: -195px; 
 }
 
 .watch-safewatch{
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    margin-top: -120px; /* Suavizado reposicionamento vertical */
+    margin-top: -120px; 
     margin-right: 20px;
 }
 
@@ -1375,12 +1389,12 @@ transition-timing-function: ease-in-out;
   display: flex;
   gap: 30px;
   justify-content: end;
-  margin-right: 80px; /* Reduzido o recuo à direita */
+  margin-right: 80px; 
 }
 
 /* --- EQUIPE --- */
 .section-SOBRE3{
-  margin-top: 130px; /* Reajustado recuo do bloco */
+  margin-top: 130px;
   margin-bottom: -15px;
 }
 
@@ -1432,8 +1446,8 @@ transition-timing-function: ease-in-out;
 }
 
 .link-termos {
-  display: inline-block; /* 👈 Permite que o elemento aceite margens laterais */
-  margin-left: 6px;      /* 👈 Empurra o link para a direita */
+  display: inline-block; 
+  margin-left: 6px;     
 }
 
 .benefit-item {
@@ -1496,9 +1510,9 @@ transition-timing-function: ease-in-out;
 
 .titulo-RECURSOS2{
 display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important; /* Centraliza horizontalmente os blocos */
-    text-align: center !important;  /* Centraliza o texto dentro de cada linha */
+    flex-direction: column;
+    align-items: center ;
+    text-align: center ;
 
     margin-right: 5px;
 }
@@ -1600,16 +1614,16 @@ margin-bottom: 10px;
 
 .card-imagem-recursos{
    display: flex;
-    align-items: center; /* Alinha o ícone verticalmente ao centro do texto */
-    gap: 5px;           /* Espaço entre a imagem e o texto */
+    align-items: center; 
+    gap: 5px;           
   
 
 
-    border: 1px solid #e0e0e0;    /* Borda fina e cinza clara */
-    border-radius: 15px;        /* Arredonda os cantos da borda */
-    padding: 20px ;   /* Espaço interno para o conteúdo não esmagar a borda */
+    border: 1px solid #e0e0e0;    
+    border-radius: 15px;       
+    padding: 20px ;  
     
-    margin-bottom: 15px;       /* Espaço entre um cartão e outro */
+    margin-bottom: 15px;       
 }
 
 /*PAGINA APP*/
@@ -1624,7 +1638,7 @@ margin-bottom: 10px;
 }
 
 .text-PAGAPP h1{
-   margin-left: 0px; /* Zerado recuo de 720px para centralizar corretamente */
+   margin-left: 0px; 
    font-size: 2rem;
 }
 
@@ -1634,7 +1648,7 @@ margin-bottom: 10px;
     color: #ff7a1a;
     margin-top: -5px;
     max-width: 500px;
-    margin-left: 0px; /* Centralizado */
+    margin-left: 0px; 
 }
 
 /*linha*/
@@ -1657,20 +1671,20 @@ margin-bottom: 10px;
 .windows {
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  gap: 30px; /* Reduzido de 80px */                    
+  gap: 30px;                   
   max-width: 700px;
   margin: 0 auto;                
   margin-bottom: 40px;
 }
 
-/* Botoes de download da plataforma */
+
 .windows-plataforma {
   display: flex;
   align-items: center;      
   background-color: #002d62; 
   color: white;
   text-decoration: none;
-  padding: 40px 45px; /* Reduzido tamanho gigante de clique */
+  padding: 40px 45px; 
   border-radius: 8px;
   font-weight: bold;
   font-family: sans-serif;
@@ -1679,7 +1693,7 @@ margin-bottom: 10px;
 
 .windows-plataforma img {
   width: 45px;               
-  margin-right: 25px; /* Reduzido espaçamento interno */
+  margin-right: 25px; 
 }
 
 /*COMPRAR*/
@@ -1688,47 +1702,47 @@ margin-bottom: 10px;
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza o bloco na tela */
-    gap: 10%;                 /* Espaço entre as fotos e o texto */
+    justify-content: center; 
+    gap: 10%;                 
     max-width: 1200px;
-    margin-left: auto;       /* Centraliza automaticamente nas laterais */
+    margin-left: auto;       
     margin-right: auto;
     font-family: sans-serif;
     margin-bottom: 40px;
     padding: 0 20px;
   }
 
-  /* Galeria de Fotos (Miniaturas + Foto Grande lado a lado) */
+
   .product-comprar {
     display: flex;
-    align-items: center;     /* Alinha verticalmente as miniaturas com o relógio grande */
-    gap: 30px;               /* Espaço entre a coluna de miniaturas e o relógio grande */
+    align-items: center;     
+    gap: 30px;               
   }
 
   .fotos-COMPRAR {
     display: flex;
-    flex-direction: column;  /* Miniaturas uma embaixo da outra */
+    flex-direction: column;  
     gap: 20px;               
   }
 
   .fotos-COMPRAR img {
-    width: 130px;             /* Tamanho fixo controlado para as miniaturas */
+    width: 130px;             
     height: auto;
     cursor: pointer;
     display: block;
   }
 
-  /* Nova classe para a foto grande do relógio */
+ 
   .foto-principal {
-    width: 320px;            /* Ajuste o tamanho conforme achar melhor */
+    width: 320px;           
     height: auto;
     display: block;
   }
 
-  /* Bloco de Informações da Direita */
+ 
   .apresentaçãodoproduto {
     margin-top: 20px;
-    max-width: 700px;        /* Evita que o texto estique demais para o lado */
+    max-width: 700px;       
   }
 
   
@@ -1739,11 +1753,11 @@ margin-bottom: 10px;
     line-height: 1.5;
   }
 
-  /* Container dos Botões */
+  
   .botaozao-COMPRAR {
     display: flex;
-    flex-direction: column;  /* Coloca um botão embaixo do outro */
-    gap: 15px;               /* Espaço entre os dois botões */
+    flex-direction: column; 
+    gap: 15px;               
     margin-top: 35px;
     width: 100%;             
   }
@@ -1774,16 +1788,16 @@ transition-timing-function: ease-in-out;
 
 
   #BOTAOzinho-tradicional a {
-    text-decoration: none !important; /* Força a remoção do sublinhado */
-    color: white !important;          /* Força o texto a ficar branco */
+    text-decoration: none ; 
+    color: white;         
     font-weight: bold;
     font-size: 17px;
-    display: block;                   /* Faz o clique funcionar em todo o botão */
+    display: block;                  
     width: 100%;
     text-align: center;
   }
 
-  /* Botão Laranja (Comprar Agora) */
+  /* Comprar Agora */
   .BOTAOzinho-comprar {
     background-color: #e95c28;
     border: 1px solid #e95c28;
@@ -1793,18 +1807,18 @@ transition-timing-function: ease-in-out;
     cursor: pointer;
   }
 
-  /* REMOVE O SUBINHADO E COR AZUL DO LINK INTERNO */
+ 
   .BOTAOzinho-comprar a {
-    text-decoration: none !important; /* Força a remoção do sublinhado */
-    color: white !important;          /* Força o texto a ficar branco */
+    text-decoration: none ;
+    color: white ;          
     font-weight: bold;
     font-size: 17px;
-    display: block;                   /* Faz o clique funcionar em todo o botão */
+    display: block;                  
     width: 100%;
     text-align: center;
   }
 
-  /* Botão Branco (Adicionar ao Carrinho) */
+  /*Adicionar ao Carrinho*/
   .BOTAO-CARRINHO {
     background-color: white;
     border: 1px solid #333;
@@ -1821,10 +1835,10 @@ transition-timing-function: ease-in-out;
     display: none;
   }
 
-  /* REMOVE O SUBINHADO DO LINK DO CARRINHO */
+
   .BOTAO-CARRINHO a {
-    text-decoration: none !important;
-    color: #333 !important;           /* Texto escuro para contrastar com o fundo branco */
+    text-decoration: none ;
+    color: #333 ;           
     font-weight: bold;
     font-size: 17px;
     display: inline-block;
@@ -1840,13 +1854,6 @@ transition-timing-function: ease-in-out;
   }
 
 
-
-
-
-
-
-  
-  
 
 
 /*Pagamento*/
@@ -1865,7 +1872,7 @@ transition-timing-function: ease-in-out;
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-left: 120px; /* Reduzido de 230px para o produto não fugir da tela */
+  margin-left: 120px; 
 }
 
 .valores-relogio{
@@ -1874,7 +1881,7 @@ transition-timing-function: ease-in-out;
 }
 
 .preco-relogio{
-  font-size: 22px; /* Ajuste leve na fonte */
+  font-size: 22px; 
   font-weight: bold;
   color: #e95c28;
 }
@@ -1893,11 +1900,11 @@ transition-timing-function: ease-in-out;
 }
 
 .imagem-produto-checkout {
-  width: 160px; /* Reduzido de 220px para telas médias */
+  width: 160px; 
   height: auto;
   border-radius: 5px;
   position: absolute; 
-  margin-left: -115px; /* Alinhado à nova largura */
+  margin-left: -115px; 
 }
 
 .linkParaIrNaLoja{
@@ -1920,7 +1927,7 @@ font-weight: bold;
 }
 
 .PAGAMENTO {
-    max-width: 700px; /* Compactado ligeiramente para telas menores */
+    max-width: 700px; 
     margin: 0 auto;
     background: #fff;
     padding: 25px;
@@ -2063,7 +2070,7 @@ input, select {
 }
 
 .input-with-icons input {
-    width: 85%; /* Um pouco mais de espaço para preenchimento */
+    width: 85%; 
 }
 
 #organizarosbtoes{
@@ -2211,12 +2218,12 @@ transition-timing-function: ease-in-out;
       transition: right 0.3s ease-in-out;
   }
 
-  /* Classe controlada pelo JavaScript para abrir a aba */
+  /* Classe do JavaScript para abrir a aba */
   .carrinho-aba-lateral.ativa {
       right: 0;
   }
 
-  /* Cabeçalho da aba lateral */
+  
   .carrinho-aba-header {
       display: flex;
       justify-content: space-between;
@@ -2247,7 +2254,7 @@ transition-timing-function: ease-in-out;
       padding: 10px;
   }
 
-  /* Adapta a sua box antiga para o formato vertical da aba sem estragar os outros modelos */
+
   .carrinho-aba-lateral .box-pagamentao {
       flex-direction: column;
       align-items: stretch;
@@ -2258,7 +2265,6 @@ transition-timing-function: ease-in-out;
       padding: 10px;
   }
 
-  /* Novos elementos internos da aba */
   .cor-produto-carrinho {
       margin-left: 60px;
       margin-top: 8px;
@@ -2297,7 +2303,7 @@ transition-timing-function: ease-in-out;
       font-weight: bold;
   }
 
-  /* Rodapé fixado na base da aba lateral */
+
   .carrinho-aba-footer {
       padding: 20px;
       background: #fff;
@@ -2320,7 +2326,7 @@ transition-timing-function: ease-in-out;
 
   .btn-comprar-agora-carrinho {
       width: 100%;
-      background-color: #e95c28; /* Laranja correspondente */
+      background-color: #e95c28; 
       color: white;
       border: none;
       padding: 14px;
@@ -2336,14 +2342,14 @@ transition-timing-function: ease-in-out;
    .botao-icone-carrinho {
       display: flex;
       align-items: center;
-      margin-left: 15px; /* Espaço entre o botão Cadastre-se e o Carrinho */
+      margin-left: 15px; 
   }
 
  .botao-icone-carrinho img:hover {
       width: 30px
   }
 
-  /* Efeito de zoom leve ao passar o mouse */
+ 
   .botao-icone-carrinho img:hover {
       transform: scale(1.1);
   }
@@ -2357,8 +2363,8 @@ transition-timing-function: ease-in-out;
 
 justify-content: center;
 
-   display: grid; /* Obrigatório para o grid funcionar */
-  grid-template-columns: repeat(2, 1fr); /* Cria as 3 colunas iguais */
+   display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
   gap: 10px;
   max-width: 1000px;
   margin-left: auto;
@@ -2366,15 +2372,19 @@ justify-content: center;
 }
 
 .mudartermo{
-  margin-left: -50px;
+margin-left: -60px;
+   width: 100%;
+    max-width: 600px;
 }
 
 .mudartermo2{
-  margin-left: -50px;
+   margin-left: -60px;
+   width: 100%;
+    max-width: 600px;
 }
 
 .mudartermo3{
-  margin-left: -30px;
+ margin-left: -30px;
 }
 
 .termo-item:hover {
@@ -2389,19 +2399,31 @@ transition-timing-function: ease-in-out;
     display: flex;
     margin-top: 20px;
     width: 38px;         
-    height: 38px;        
+    height: 38px;    
+        
 }
 
-.termo-item {
-    background-color: #ffffff;
-    border: 1px solid #eef2f5;
-    border-radius: 8px; 
-    padding: 20px;
-    display: flex;
-    gap: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
-    margin-top: -15px;
-}
+  .termo-item {
+      background-color: #ffffff;
+      border: 1px solid #eef2f5;
+      border-radius: 8px; 
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
+      margin-top: -15px;
+
+      margin-bottom: 25px; 
+      margin-right: 30px;  
+      margin-left: 30px;  
+         box-sizing: border-box;
+
+      width: 100%;
+      max-width: 500px;
+      min-height: 180px;
+
+      align-items: center;
+  }
 
 .termo-item:hover{
  transform: translateY(-10px);
@@ -2413,7 +2435,7 @@ transition-timing-function: ease-in-out;
 
 .textao-termo {
   color: #1a2a5a; 
-  font-size: 1.5rem; /* Reduzido de 2.8rem */
+  font-size: 1.5rem; 
   margin-bottom: 20px; 
 
   display: flex;
@@ -2432,14 +2454,14 @@ transition-timing-function: ease-in-out;
 .conteudo-TERMO p {
     color: #555555; 
     font-size: 13px;
-    max-width: 500px; /* Ajustado para caixas menores */
+    max-width: 500px; 
 }
 
 
 /*banner*/
 /* CAIXA PRINCIPAL */
 .banner {
-  margin: 30px; /* Margem ajustada */
+  margin: 30px; 
 }
 
 #bodyPRIVACIDADE {

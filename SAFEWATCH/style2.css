@@ -110,6 +110,15 @@
     text-align: center;
   }
 
+  .banner-conteudo:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
   .texto {
     color: white;
     max-width: 100%;
@@ -2221,6 +2230,26 @@ transition-timing-function: ease-in-out;
     gap: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     margin-top: -15px;
+
+
+     margin-bottom: 25px; 
+      margin-right: 30px;  
+      margin-left: 20px;  
+         box-sizing: border-box;
+
+      width: 100%;
+      max-width: 500px;
+      min-height: 180px;
+
+      align-items: center;
+}
+
+.termo-item:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 .textao-termo {
@@ -2263,6 +2292,14 @@ transition-timing-function: ease-in-out;
 
 
     
+}
+
+  .banner-PIVACIDADE:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 .banner-PIVACIDADE img{

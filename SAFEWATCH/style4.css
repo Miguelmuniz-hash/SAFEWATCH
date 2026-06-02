@@ -86,6 +86,15 @@ margin-top: -10px;
     margin: 15px;
   }
 
+  .banner-conteudo:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+
+}
+
   .banner-conteudo {
     display: flex;
     flex-direction: column; /* Texto e imagem empilhados */
@@ -99,6 +108,8 @@ margin-top: -10px;
 
     width: 85%;
     margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .banner-conteudo img{
@@ -1897,7 +1908,32 @@ margin-top: 40px;
     margin-top: 0;
     width: 100%;
     box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+background-color: #ffffff;
+    border: 1px solid #eef2f5;
+
+
+
+     margin-bottom: 25px; 
+      margin-right: 30px;  
+      margin-left: 20px;  
+         box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+      max-width: 500px;
+      min-height: 180px;
+
+      align-items: center;
   }
+
+  .termo-item:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
 
   .icones-TERMOS {
     margin-top: 0;
@@ -1928,6 +1964,14 @@ margin-top: 40px;
   
  width: 88%;
     margin-left: 15px;
+}
+
+  .banner-PIVACIDADE:hover{
+ transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
 }
 
 .banner-PIVACIDADE img{

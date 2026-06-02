@@ -1,10 +1,4 @@
-function Finalizar(){
 
-let apertar = document.getElementById("pagar");
-
-
-if(apertar){
-    alert("Pedido realizado com sucesso! Em breve você receberá um e-mail de confirmação.")
-}
-
-}
+    function COMPRASafeWatch() {
+        alert("Pedido Realizado com sucesso!\n\nEm breve você receberá um e-mail de confirmação.");
+    }
